@@ -43,6 +43,22 @@ def classifySentences():
             else:
                     safe_sentences.append(words)
 
+#Need UPDATE
+def removelesswords(processed_words):
+    for word in processed_words:
+        i = processed_words.count(word)
+        words_count.append((word,i))
+
+    for elem in words_count:
+        if elem not in no_duplicate_count:
+            no_duplicate_count.append(elem)
+
+    for elem in words_count:
+        if elem[1] > 2:
+            word_count_result.append(elem[0])
+
+    return word_count_result
+
 def processWords(input_data):
 
     unique_words = [] #This list stores all the unique words, excluding duplicates
@@ -100,7 +116,12 @@ def processWords(input_data):
 with open('Dataset.csv', 'w', newline='') as myfile:
     print("Creating Dataset...")
     classifySentences();
-    headers = processWords(all_words)
+
+    headers1 = processWords(all_words)
+
+    #Need UPDATE
+    headers = removelesswords(headers1)
+    
     headers.append("Is_Risky?")
 
     wr = csv.writer(myfile, dialect='excel')
