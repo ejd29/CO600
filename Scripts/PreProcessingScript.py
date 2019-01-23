@@ -17,7 +17,7 @@ contracts = ["8Contracts.txt"]
 
 risky_sentences = []
 safe_sentences = []
-all_words = [] # All the words taken directly from the contracts
+all_words = {} # All the words taken directly from the contracts
 headers = [] # Headers for the dataset
 
 
@@ -27,6 +27,8 @@ def classifySentences():
         f = open(contracts[n])
         raw = f.read()
 
+        raw = raw.replace('\n', '. ')
+
         sent_tokenize_list = sent_tokenize(raw)
 
         for x in range(len(sent_tokenize_list)):
@@ -34,7 +36,12 @@ def classifySentences():
             words = word_tokenize(sent_tokenize_list[x])
 
             for y in range(len(words)):
-                all_words.append(words[y])
+
+                if words[y] in all_words:
+                    all_words[words[y]] += 1
+                else:
+                    all_words[words[y]] = 1
+
                 if "0cf333" in words[y]:
                     is_risky = True
 
@@ -43,23 +50,14 @@ def classifySentences():
             else:
                     safe_sentences.append(words)
 
-#Need UPDATE
-def removelesswords(processed_words):
-    for word in processed_words:
-        i = processed_words.count(word)
-        words_count.append((word,i))
-
-    for elem in words_count:
-        if elem not in no_duplicate_count:
-            no_duplicate_count.append(elem)
-
-    for elem in words_count:
-        if elem[1] > 2:
-            word_count_result.append(elem[0])
-
-    return word_count_result
-
 def processWords(input_data):
+
+    #remove words with less than three words
+    input_data = {key:val for key, val in input_data.items() if val > 8}
+    input_data_array = []
+
+    for key in input_data:
+        input_data_array.append(key)
 
     unique_words = [] #This list stores all the unique words, excluding duplicates
     filter_stemming = [] #List for Stemmer (using the porter stemmer algorithm)
@@ -71,7 +69,7 @@ def processWords(input_data):
     filter_exclude = []#List of excluded words removed
 
     #Removes punctuation
-    for input_data_elem in input_data:
+    for input_data_elem in input_data_array:
         try:
             nopunc = input_data_elem.translate(str.maketrans('','',string.punctuation))
             unique_words.append(nopunc)
@@ -84,7 +82,7 @@ def processWords(input_data):
             filter_stop_list.append(unique_words_elem.lower())
 
     #Exclude words
-    excludeWords = ['EE', 'BT','cf','b','c', 'e','f','g','h','ii','$','wo','nt','gsm','iii','a','sl','dx','isl','p','k','l','n','eg','st','uptod','ait','gb','iv','v','vi','examplecomgiffgaff', 'giffgaffexamplecom','vii','viii','x','xi','xii', 'ix', 'ie', 'ii', 't','cs','rd','I','wwwicoorguk','eea','ec4a','bd','pm','dpo','s','o','iab','ga','ck','ag','ukon','myvm','jr','sa','bb', 'andor', '0cf333', 'cf333', 'upon', 'us', 'third', 'onto', 'one', 'third', 'one', 'first', 'two', 'for', 'within', 'without', 'wo', 'wwwallaboutcookiesorg', 'wwwcallcreditcoukcrain', 'wwwcifasorguk', 'wwwequifaxcoukcrain', 'wwwexperiancoukcrain', 'wwwgiffgaffcomsupportask', 'wwwgiffgaffsimcardscouk', 'wwwicoorguk', 'wwwlycamobilecoukencontactus', 'wwwlycamobilecoukenroamingwithineucountries', 'wwwo2coukcookiepolicy', 'wwwombudsmanservicesorg', 'wwwthreecouk', 'wwwthreecouktermsconditionspaymandpayg', 'wwwvirginmediacom', 'wwwyouronlinechoiceseu', 'ukonly', 'ub8', 'thereof', 'th', 'hereinafter', 'h', 'g', 'ga', 'euus', 'etc', 'bb', 'although']
+    excludeWords = ['EE', 'BT','cf','b','c', 'e','f','g','h','ii','$','wo','nt','gsm','iii','a','sl','dx','isl','p','k','l','n','eg','st','uptod','ait','gb','iv','v','vi','examplecomgiffgaff', 'giffgaffexamplecom','vii','viii','x','xi','xii', 'ix', 'ie', 'ii', 't','cs','rd','I','wwwicoorguk','eea','ec4a','bd','pm','dpo','s','o','iab','ga','ck','ag','ukon','myvm','jr','sa','bb', 'andor', '0cf333', 'cf333', 'upon', 'us', 'third', 'onto', 'one', 'third', 'one', 'first', 'two', 'for', 'within', 'without', 'wo', 'wwwallaboutcookiesorg', 'wwwcallcreditcoukcrain', 'wwwcifasorguk', 'wwwequifaxcoukcrain', 'wwwexperiancoukcrain', 'wwwgiffgaffcomsupportask', 'wwwgiffgaffsimcardscouk', 'wwwicoorguk', 'wwwlycamobilecoukencontactus', 'wwwlycamobilecoukenroamingwithineucountries', 'wwwo2coukcookiepolicy', 'wwwombudsmanservicesorg', 'wwwthreecouk', 'wwwthreecouktermsconditionspaymandpayg', 'wwwvirginmediacom', 'wwwyouronlinechoiceseu', 'ukonly', 'ub8', 'thereof', 'th', 'hereinafter', 'h', 'g', 'ga', 'euus', 'etc', 'bb', 'although', '·', '–', '‘', '’', '“', '”', '•']
 
     filter_exclude = [word for word in filter_stop_list if word not in excludeWords]
 
@@ -115,13 +113,10 @@ def processWords(input_data):
 
 with open('Dataset.csv', 'w', newline='') as myfile:
     print("Creating Dataset...")
-    classifySentences();
+    classifySentences()
 
-    headers1 = processWords(all_words)
+    headers = processWords(all_words)
 
-    #Need UPDATE
-    headers = removelesswords(headers1)
-    
     headers.append("Is_Risky?")
 
     wr = csv.writer(myfile, dialect='excel')
@@ -129,21 +124,23 @@ with open('Dataset.csv', 'w', newline='') as myfile:
 
 
     for sentence in risky_sentences:
-        processed_sentence = processWords(sentence)
+        #processed_sentence = processWords(sentence)
         attributes_present = []
         for attribute in headers:
-            if attribute in processed_sentence:
-                attributes_present.append(1)
+            if attribute in sentence:
+                #count how many times attribute appears in sentence
+                attrib_count = sentence.count(attribute)
+                attributes_present.append(attrib_count)
             else:
                 attributes_present.append(0)
         attributes_present[-1:] = ["Yes"]
         wr.writerow(attributes_present)
 
     for sentence in safe_sentences:
-        processed_sentence = processWords(sentence)
+        #processed_sentence = processWords(sentence)
         attributes_present = []
         for attribute in headers:
-            if attribute in processed_sentence:
+            if attribute in sentence:
                 attributes_present.append(1)
             else:
                 attributes_present.append(0)
