@@ -36,8 +36,8 @@ def classifySentences():
             words = word_tokenize(sent_tokenize_list[x])
 
             for y in range(len(words)):
+
                 if words[y] in all_words:
-                    #find a way of incrementing the all_words count if words within a sentence appears more than once
                     all_words[words[y]] += 1
                 else:
                     all_words[words[y]] = 1
@@ -55,11 +55,15 @@ def processWords(input_data, headers=False):
 
     input_data_array = input_data
 
-    if(headers==True):
+    #if(headers==True):
         #remove words with less than three words
-        input_data_array = []
-        input_data = {key:val for key, val in input_data.items() if val > 15}
+        #input_data_array = []
+        #input_data = {key:val for key, val in input_data.items() if val > 15}
+        #for key in input_data:
+            #input_data_array.append(key)
 
+    if headers==True:
+        input_data_array = []
         for key in input_data:
             input_data_array.append(key)
 
@@ -126,11 +130,13 @@ with open('Dataset.csv', 'w', newline='') as myfile:
     wr = csv.writer(myfile, dialect='excel')
     wr.writerow(headers)
 
+    attributes_dict = {}
+
+    for header in headers:
+        attributes_dict[header] = 0
 
     for sentence in risky_sentences:
         processed_sentence = processWords(sentence)
-
-        attributes_dict = {}
 
         attributes_present = []
         for attribute in headers:
@@ -164,6 +170,8 @@ with open('Dataset.csv', 'w', newline='') as myfile:
         attributes_present[-1:] = ["No"]
         wr.writerow(attributes_present)
     
+
+
     wr.writerow(attributes_dict.values())
 
     print("Dataset successfully created and saved.")
