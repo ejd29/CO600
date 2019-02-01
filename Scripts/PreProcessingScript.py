@@ -36,8 +36,8 @@ def classifySentences():
             words = word_tokenize(sent_tokenize_list[x])
 
             for y in range(len(words)):
-
                 if words[y] in all_words:
+                    #find a way of incrementing the all_words count if words within a sentence appears more than once
                     all_words[words[y]] += 1
                 else:
                     all_words[words[y]] = 1
