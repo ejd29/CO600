@@ -50,14 +50,18 @@ def classifySentences():
             else:
                     safe_sentences.append(words)
 
-def processWords(input_data):
+def processWords(input_data, headers=False):
 
-    #remove words with less than three words
-    input_data = {key:val for key, val in input_data.items() if val > 8}
-    input_data_array = []
 
-    for key in input_data:
-        input_data_array.append(key)
+    input_data_array = input_data
+
+    if(headers==True):
+        #remove words with less than three words
+        input_data_array = []
+        input_data = {key:val for key, val in input_data.items() if val > 15}
+
+        for key in input_data:
+            input_data_array.append(key)
 
     unique_words = [] #This list stores all the unique words, excluding duplicates
     filter_stemming = [] #List for Stemmer (using the porter stemmer algorithm)
@@ -82,7 +86,7 @@ def processWords(input_data):
             filter_stop_list.append(unique_words_elem.lower())
 
     #Exclude words
-    excludeWords = ['EE', 'BT','cf','b','c', 'e','f','g','h','ii','$','wo','nt','gsm','iii','a','sl','dx','isl','p','k','l','n','eg','st','uptod','ait','gb','iv','v','vi','examplecomgiffgaff', 'giffgaffexamplecom','vii','viii','x','xi','xii', 'ix', 'ie', 'ii', 't','cs','rd','I','wwwicoorguk','eea','ec4a','bd','pm','dpo','s','o','iab','ga','ck','ag','ukon','myvm','jr','sa','bb', 'andor', '0cf333', 'cf333', 'upon', 'us', 'third', 'onto', 'one', 'third', 'one', 'first', 'two', 'for', 'within', 'without', 'wo', 'wwwallaboutcookiesorg', 'wwwcallcreditcoukcrain', 'wwwcifasorguk', 'wwwequifaxcoukcrain', 'wwwexperiancoukcrain', 'wwwgiffgaffcomsupportask', 'wwwgiffgaffsimcardscouk', 'wwwicoorguk', 'wwwlycamobilecoukencontactus', 'wwwlycamobilecoukenroamingwithineucountries', 'wwwo2coukcookiepolicy', 'wwwombudsmanservicesorg', 'wwwthreecouk', 'wwwthreecouktermsconditionspaymandpayg', 'wwwvirginmediacom', 'wwwyouronlinechoiceseu', 'ukonly', 'ub8', 'thereof', 'th', 'hereinafter', 'h', 'g', 'ga', 'euus', 'etc', 'bb', 'although', '·', '–', '‘', '’', '“', '”', '•']
+    excludeWords = ['EE', 'BT','cf','b','c', 'e','f','g','h','ii','$','wo','nt','gsm','iii','a','sl','dx','isl','p','k','l','n','eg','st','uptod','ait','gb','iv','v','vi','examplecomgiffgaff', 'giffgaffexamplecom','vii','viii','x','xi','xii', 'ix', 'ie', 'ii', 't','cs','rd','I','wwwicoorguk','eea','ec4a','bd','pm','dpo','s','o','iab','ga','ck','ag','ukon','myvm','jr','sa','bb', 'andor', '0cf333', 'cf333', 'upon', 'us', 'third', 'onto', 'one', 'third', 'one', 'first', 'two', 'for', 'within', 'without', 'wo', 'wwwallaboutcookiesorg', 'wwwcallcreditcoukcrain', 'wwwcifasorguk', 'wwwequifaxcoukcrain', 'wwwexperiancoukcrain', 'wwwgiffgaffcomsupportask', 'wwwgiffgaffsimcardscouk', 'wwwicoorguk', 'wwwlycamobilecoukencontactus', 'wwwlycamobilecoukenroamingwithineucountries', 'wwwo2coukcookiepolicy', 'wwwombudsmanservicesorg', 'wwwthreecouk', 'wwwthreecouktermsconditionspaymandpayg', 'wwwvirginmediacom', 'wwwyouronlinechoiceseu', 'ukonly', 'ub8', 'thereof', 'th', 'hereinafter', 'h', 'g', 'ga', 'euus', 'etc', 'bb', 'although', '·', '–', '‘', '’', '“', '”', '•', 'also', 'asda', 'ensur', 'get', 'giffgaff', 'giffgaffcom', 'let', 'like', 'lycamobil', 'make', 'mean', 'o2', 'see', 'tesco', 'three', 'take', 'virgin']
 
     filter_exclude = [word for word in filter_stop_list if word not in excludeWords]
 
@@ -115,7 +119,7 @@ with open('Dataset.csv', 'w', newline='') as myfile:
     print("Creating Dataset...")
     classifySentences()
 
-    headers = processWords(all_words)
+    headers = processWords(all_words, True)
 
     headers.append("Is_Risky?")
 
@@ -124,27 +128,42 @@ with open('Dataset.csv', 'w', newline='') as myfile:
 
 
     for sentence in risky_sentences:
-        #processed_sentence = processWords(sentence)
+        processed_sentence = processWords(sentence)
+
+        attributes_dict = {}
+
         attributes_present = []
         for attribute in headers:
-            if attribute in sentence:
+            if attribute in processed_sentence:
                 #count how many times attribute appears in sentence
-                attrib_count = sentence.count(attribute)
-                attributes_present.append(attrib_count)
+                #attrib_count = sentence.count(attribute)
+                attributes_present.append(1)
+                if attribute in attributes_dict:
+                    attributes_dict[attribute] += 1
+                else:
+                    attributes_dict[attribute] = 1
             else:
                 attributes_present.append(0)
         attributes_present[-1:] = ["Yes"]
         wr.writerow(attributes_present)
 
     for sentence in safe_sentences:
-        #processed_sentence = processWords(sentence)
+        processed_sentence = processWords(sentence)
         attributes_present = []
         for attribute in headers:
-            if attribute in sentence:
+            if attribute in processed_sentence:
+                #count how many times attribute appears in sentence
+                #attrib_count = sentence.count(attribute)
                 attributes_present.append(1)
+                if attribute in attributes_dict:
+                    attributes_dict[attribute] += 1
+                else:
+                    attributes_dict[attribute] = 1
             else:
                 attributes_present.append(0)
         attributes_present[-1:] = ["No"]
         wr.writerow(attributes_present)
+    
+    wr.writerow(attributes_dict.values())
 
     print("Dataset successfully created and saved.")
