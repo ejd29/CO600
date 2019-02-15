@@ -34,11 +34,13 @@ def classifySentences():
         for x in range(len(sent_tokenize_list)):
             is_risky = False
             words = word_tokenize(sent_tokenize_list[x])
+            current_sentence_attributes_present = []
 
             for y in range(len(words)):
 
-                if words[y] in all_words:
+                if words[y] in all_words and words[y] not in current_sentence_attributes_present:
                     all_words[words[y]] += 1
+                    current_sentence_attributes_present.append(words[y])
                 else:
                     all_words[words[y]] = 1
 
@@ -52,20 +54,18 @@ def classifySentences():
 
 def processWords(input_data, headers=False):
 
-
     input_data_array = input_data
 
-    #if(headers==True):
-        #remove words with less than three words
-        #input_data_array = []
-        #input_data = {key:val for key, val in input_data.items() if val > 15}
-        #for key in input_data:
-            #input_data_array.append(key)
-
-    if headers==True:
+    if(headers==True):
         input_data_array = []
+        input_data = {key:val for key, val in input_data.items() if val > 5}
         for key in input_data:
             input_data_array.append(key)
+
+    #if headers==True:
+    #   input_data_array = []
+    #   for key in input_data:
+    #       input_data_array.append(key)
 
     unique_words = [] #This list stores all the unique words, excluding duplicates
     filter_stemming = [] #List for Stemmer (using the porter stemmer algorithm)
@@ -97,7 +97,7 @@ def processWords(input_data, headers=False):
     #Removes numbers
     for checknum in filter_exclude:
         if not checknum.isdigit():
-            filter_no_num.append(checknum.lstrip('£0123456789'));
+            filter_no_num.append(checknum.lstrip('£0123456789'))
 
     #Apply Snowball Stemming
     for fn in filter_no_num:
@@ -142,8 +142,8 @@ with open('Dataset.csv', 'w', newline='') as myfile:
         for attribute in headers:
             if attribute in processed_sentence:
                 #count how many times attribute appears in sentence
-                #attrib_count = sentence.count(attribute)
-                attributes_present.append(1)
+                attrib_count = sentence.count(attribute)
+                attributes_present.append(attrib_count)
                 if attribute in attributes_dict:
                     attributes_dict[attribute] += 1
                 else:
@@ -159,8 +159,8 @@ with open('Dataset.csv', 'w', newline='') as myfile:
         for attribute in headers:
             if attribute in processed_sentence:
                 #count how many times attribute appears in sentence
-                #attrib_count = sentence.count(attribute)
-                attributes_present.append(1)
+                attrib_count = sentence.count(attribute)
+                attributes_present.append(attrib_count)
                 if attribute in attributes_dict:
                     attributes_dict[attribute] += 1
                 else:
