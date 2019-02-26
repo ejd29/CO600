@@ -142,7 +142,7 @@ with open('Dataset.csv', 'w', newline='') as myfile:
         for attribute in headers:
             if attribute in processed_sentence:
                 #count how many times attribute appears in sentence
-                attrib_count = sentence.count(attribute)
+                attrib_count = processed_sentence.count(attribute)
                 attributes_present.append(attrib_count)
                 if attribute in attributes_dict:
                     attributes_dict[attribute] += 1
@@ -159,7 +159,7 @@ with open('Dataset.csv', 'w', newline='') as myfile:
         for attribute in headers:
             if attribute in processed_sentence:
                 #count how many times attribute appears in sentence
-                attrib_count = sentence.count(attribute)
+                attrib_count = processed_sentence.count(attribute)
                 attributes_present.append(attrib_count)
                 if attribute in attributes_dict:
                     attributes_dict[attribute] += 1
