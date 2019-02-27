@@ -58,6 +58,7 @@ def home():
 def ModelTest():
         global clf_rf
         risky_statement_locations = []
+        risky_statements = []
         req_data = request.get_json()
 
         document = req_data['document'].replace('\n', '. ')
@@ -79,8 +80,10 @@ def ModelTest():
                         end_of_sentence = beginning_of_sentence + length_of_sentence
                         risky_statement_locations.append(beginning_of_sentence)
                         risky_statement_locations.append(end_of_sentence)
+                        risky_statements.append(sentence)
 
-        return jsonify(rsl=risky_statement_locations)
+
+        return jsonify(rsl=risky_statement_locations, rs=risky_statements)
                 
 
 def ConvertSentencetoAttributeSequence(sentence):

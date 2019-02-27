@@ -50,7 +50,7 @@
             "request": "launch",
             "module": "flask",
             "env": {
-                "FLASK_APP": "TestApi.py"
+                "FLASK_APP": "ClassificationApi.py"
             },
             "args": [
                 "run"
