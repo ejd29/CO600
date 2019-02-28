@@ -6,8 +6,9 @@ from sklearn.metrics import recall_score
 from imblearn.over_sampling import SMOTE
 
 dataset = pd.read_csv('Dataset.csv', ',')
-dataset_attributes_X = dataset.columns.values[0:533].tolist()
-dataset_attribute_Y = dataset.columns.values[533:534].tolist()
+dataset_columns = len(dataset.columns)
+dataset_attributes_X = dataset.columns.values[0:dataset_columns-1].tolist()
+dataset_attribute_Y = dataset.columns.values[dataset_columns-1:dataset_columns].tolist()
 
 dataset_X = dataset[dataset_attributes_X].as_matrix()
 #dataset_Y = pd.get_dummies(dataset[dataset_attribute_Y]).as_matrix()
@@ -23,6 +24,11 @@ x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 
 clf_rf = RandomForestClassifier(n_estimators=25, random_state=12)
 clf_rf.fit(x_train_res, y_train_res)
+
+if clf_rf.predict(X_test[0].reshape(1,-1)) == "No":
+    print("prediction is No")
+else:
+    print(clf_rf.predict(X_test[0].reshape(1,-1)))
 
 print("Validation Results")
 print(clf_rf.score(X_test, y_test))

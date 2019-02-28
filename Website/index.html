@@ -6,6 +6,8 @@
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="stylesheet" href="assets/js/theme/jquery-ui.min.css">
+		<link rel="stylesheet" href="assets/js/jquery.highlighttextarea.min.css">
 	</head>
 	<body class="is-preload">
 
@@ -82,14 +84,14 @@
 					</header>
 					<div class="row">
 						<div class="col-12">
-							<form method="post" action="#">
+							<form action="">
 								<div class="row">
 									<div class="col-12">
-										<textarea name="termsandconditions" id="termsandconditions" placeholder="Terms and Conditions"></textarea>
+										<textarea id="termsandconditions" placeholder="Terms and Conditions"></textarea>
 									</div>
 									<div class="col-12">
 										<ul class="actions">
-											<li><input type="submit" value="Analyse" /></li>
+											<li><input id="analyseB" type="button" value="Analyse" /></li>
 											<li><input type="reset" value="Clear Text" class="alt" /></li>
 										</ul>
 									</div>
@@ -112,6 +114,30 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+
+			<script src="assets/js/jquery-ui.min.js"></script>
+			<script src="assets/js/jquery.highlighttextarea.js"></script>
+
+			<script>
+			$(document).ready(function(){
+				$("#analyseB").click(function(){
+					var tccontract = $("#termsandconditions").val();
+					$.ajax({
+						type: 'POST',
+						url: 'http://localhost:5000/ModelTest',
+						data: tccontract,
+						dataType: 'json',
+						contentType: 'application/json',
+						success: function(result){
+							$("#termsandconditions").highlightTextarea({
+							  color: '#ADF0FF',
+							  words: result.rs
+							});
+						}
+					});
+				});
+			});
+		 </script>
 
 	</body>
 </html>
