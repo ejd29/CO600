@@ -13,7 +13,7 @@ stop_words = set(stopwords.words('english'))
 
 #contracts = ["asdaContract.txt", "lycaContract.txt", "eeContract.txt", "giffgaff.txt"]
 #contracts = ["asdaContract.txt"]
-contracts = ["8Contracts.txt"]
+contracts = ["8Contracts2.txt"]
 
 risky_sentences = []
 safe_sentences = []
@@ -24,7 +24,7 @@ headers = [] # Headers for the dataset
 def classifySentences():
     for n in range(len(contracts)):
 
-        f = open(contracts[n])
+        f = open(contracts[n], encoding="utf-8")
         raw = f.read()
 
         raw = raw.replace('\n', '. ')

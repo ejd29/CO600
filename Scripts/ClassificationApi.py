@@ -9,6 +9,7 @@ from sklearn.metrics import recall_score
 from imblearn.over_sampling import SMOTE
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import SnowballStemmer
+from sklearn.neural_network import MLPClassifier
 import sys
 
 app = flask.Flask(__name__)
@@ -30,8 +31,9 @@ X_train, X_test, y_train, y_test = train_test_split(dataset_X, dataset_Y, test_s
 sm = SMOTE(random_state=12, ratio = 1.0)
 x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 
-clf_rf = RandomForestClassifier(n_estimators=25, random_state=12)
-clf_rf.fit(x_train_res, y_train_res)
+clf = RandomForestClassifier(n_estimators=25, random_state=12)
+clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(30,), random_state=12)
+clf.fit(x_train_res, y_train_res)
 
 #testVar = "I shouldn't be this value"
 
@@ -56,7 +58,7 @@ def home():
 
 @app.route('/ModelTest', methods=['POST'])
 def ModelTest():
-        global clf_rf
+        global clf
         risky_statement_locations = []
         risky_statements = []
         req_data = request.get_json()
@@ -72,7 +74,7 @@ def ModelTest():
                         sentence_stemmed.append(snowball_stemmer.stem(word))
 
                 attribute_sequence = ConvertSentencetoAttributeSequence(sentence_stemmed)
-                predicted_class = clf_rf.predict(attribute_sequence)
+                predicted_class = clf.predict(attribute_sequence)
 
                 if predicted_class == "Yes":
                         beginning_of_sentence = document.find(sentence)
