@@ -1,6 +1,7 @@
 import flask
 from flask import request
 from flask import jsonify
+from flask_cors import CORS
 import numpy as np
 import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
@@ -14,6 +15,7 @@ import sys
 
 app = flask.Flask(__name__)
 app.config["DEBUG"] = False
+CORS(app)
 
 snowball_stemmer = SnowballStemmer('english')
 
@@ -86,7 +88,7 @@ def ModelTest():
 
 
         return jsonify(rsl=risky_statement_locations, rs=risky_statements)
-                
+
 
 def ConvertSentencetoAttributeSequence(sentence):
         attributes_present = [[]]
@@ -99,7 +101,7 @@ def ConvertSentencetoAttributeSequence(sentence):
                 else:
                         attributes_present[0].append(0)
 
-        print(attributes_present) 
+        print(attributes_present)
 
         return attributes_present
 

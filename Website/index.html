@@ -120,22 +120,27 @@
 
 			<script>
 			$(document).ready(function(){
-				$("#analyseB").click(function(){
-					var tccontract = $("#termsandconditions").val();
-					$.ajax({
-						type: 'POST',
-						url: 'http://localhost:5000/ModelTest',
-						data: tccontract,
-						dataType: 'json',
-						contentType: 'application/json',
-						success: function(result){
-							$("#termsandconditions").highlightTextarea({
-							  color: '#ADF0FF',
-							  words: result.rs
-							});
-						}
-					});
-				});
+			  $("#analyseB").click(function(){
+			    var tccontract = $("#termsandconditions").val();
+			    $.ajax({
+			      type: 'POST',
+			      url: 'http://localhost:5000/ModelTest',
+			      data: tccontract,
+						cors: true,
+			      dataType: 'json',
+			      contentType: 'application/json',
+						secure: true,
+						headers: {
+							'Access-Control-Allow-Origin':'*',
+						},
+			      success: function(result){
+			        $("#termsandconditions").highlightTextarea({
+			          color: '#ADF0FF',
+			          words: result.rs
+			        });
+			      }
+			    });
+			  });
 			});
 		 </script>
 
