@@ -6,7 +6,11 @@ from sklearn.metrics import recall_score
 from imblearn.over_sampling import SMOTE
 from sklearn.neural_network import MLPClassifier
 
-dataset = pd.read_csv('Dataset.csv', ',', encoding="utf-8")
+from sklearn.naive_bayes import GaussianNB
+
+from sklearn import svm
+
+dataset = pd.read_csv('Dataset12Contracts.csv', ',', encoding="utf-8")
 dataset_columns = len(dataset.columns)
 dataset_attributes_X = dataset.columns.values[0:dataset_columns-1].tolist()
 dataset_attribute_Y = dataset.columns.values[dataset_columns-1:dataset_columns].tolist()
@@ -23,18 +27,26 @@ X_train, X_test, y_train, y_test = train_test_split(dataset_X, dataset_Y, test_s
 sm = SMOTE(random_state=12, ratio = 1.0)
 x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 
-clf = RandomForestClassifier(n_estimators=25, random_state=12)
-clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(30,), random_state=12)
-clf.fit(x_train_res, y_train_res)
+#clf = RandomForestClassifier(n_estimators=25, random_state=12)
+#clf = GaussianNB()
+#clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(22,), random_state=12)
+for n in range(1,3):
+    for i in range(1,40): 
+        clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(i,n), random_state=12)
+        clf.fit(x_train_res, y_train_res)
+        #print("Validation Results for (" + i + "," + n + ")")
+        print("Validation results for %s hidden units with %s hidden layer(s)" % (i, n))
+        print(clf.score(X_test, y_test))
+        print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
+        print("\n")
 
-if clf.predict(X_test[0].reshape(1,-1)) == "No":
-    print("prediction is No")
-else:
-    print(clf.predict(X_test[0].reshape(1,-1)))
 
-print("Validation Results")
-print(clf.score(X_test, y_test))
-print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
+#clf = svm.SVC(gamma='scale')
+
+
+#print("Validation Results")
+#print(clf.score(X_test, y_test))
+#print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
 #print '\nTest Results'
 #print clf_rf.score(test_features, test_target)
 #print recall_score(test_target, clf_rf.predict(test_features))

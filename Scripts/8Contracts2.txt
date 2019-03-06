@@ -119,7 +119,7 @@ DATA RETENTION
 
 We and our partners may retain the anonymous user data we or our partners collect on the Defy Sites for up to nine (9) months from the date of its collection, after which time it is deleted from, or deactivated on, our and our partnersâ active databases.
 In addition, we maintain archives of our web logs, database, and other systems and information.
-Please note that it is possible some of this information may remain archived after we delete or deactivate the information from its active database 0cf333.
+Please note that it is possible some of this information may remain archived after we delete or deactivate the information from its active database 0cf333 .
 We maintain archives for disaster recovery, legal and other non-marketing purposes.
 
 
@@ -177,7 +177,7 @@ This policy applies to all personal information that we may collect and maintain
 
 
 
-Your contact information (such as name, Twitter handle, postal and email address, or phone number) 0cf333.
+Your contact information (such as name, Twitter handle, postal and email address, or phone number) 0cf333 .
 
 
 Username and password for the account you may establish on the Defy Site.
@@ -186,7 +186,7 @@ Username and password for the account you may establish on the Defy Site.
 Demographic information (such as age, date of birth and gender).
 
 
-Location information, such as the real-time geographic location of the device on which you install our mobile applications 0cf333.
+Location information, such as the real-time geographic location of the device on which you install our mobile applications 0cf333 .
 and
 
 
@@ -199,7 +199,7 @@ Please see "How to Contact Us" later in this policy.
 
 
 You also can engage with our content, such as video, games, applications, and other offerings, on or through third-party social networking sites, such as Facebook or third-party social media plug-ins and applications.
-When you engage with our content on or through third party social networking sites, plug-ins and applications, you may allow us to have access to certain information from your social media profile (e.g., your name, e-mail address, photo, gender, birthday, location, list of friends, people you follow and/or who follow you, the posts or the 'likes' you make) to deliver the content or as part of the operation of the application 0cf333.
+When you engage with our content on or through third party social networking sites, plug-ins and applications, you may allow us to have access to certain information from your social media profile (e.g., your name, e-mail address, photo, gender, birthday, location, list of friends, people you follow and/or who follow you, the posts or the 'likes' you make) to deliver the content or as part of the operation of the application 0cf333 .
 We may also obtain non-personal information (e.g., content viewed, games played and performance, high scores, and information about advertisements within the content you have been shown or may have clicked on) from your interaction with our content.
 
 
@@ -207,7 +207,7 @@ When you provide information from your social media account, it can help enable 
 (ii) personalize your online experience with us within and outside our applications or websites.
 and (iii) contact you through the social networking sites or directly by sending you the latest news, special offerings, and rewards.
 By doing so, you consent to the use of such information in accordance with our privacy policy.
-When you provide personal information to us through an application, on the Defy Site, or on social networking sites, it may be publicly viewed by other members of these sites and we cannot prevent further use of the information by third parties 0cf333.
+When you provide personal information to us through an application, on the Defy Site, or on social networking sites, it may be publicly viewed by other members of these sites and we cannot prevent further use of the information by third parties 0cf333 .
 
 
 Through some social networking sites' privacy settings, you can control what data you share.
@@ -222,7 +222,7 @@ The information that may be collected by automated means includes:
 
 
 
-Information about the devices our visitors use to access the Internet (such as the IP address and the device, browser and operating system type) 0cf333.
+Information about the devices our visitors use to access the Internet (such as the IP address and the device, browser and operating system type) 0cf333 .
 
 
 URLs that refer visitors to the Defy Site.
@@ -234,7 +234,7 @@ Dates and times of visits to the Defy Site.
 Information on actions taken on the Defy Site (such as page views and Defy Site navigation patterns)
 
 
-A general geographic location (such as country and city) from which a visitor accesses our Defy Site 0cf333.
+A general geographic location (such as country and city) from which a visitor accesses our Defy Site 0cf333 .
 and
 
 
@@ -254,10 +254,10 @@ For example, we may use your personal information to communicate with you or to 
 Additionally, by registering for the Defy Site you will be automatically entered into sweepstakes and contests held on the Defy Site.
 We may send to you an e-mail offering products or services which we think you may be interested in or to ask you to participate in a survey.
 We do not consider any companies that are within our "family" of companies to be "third parties" for purposes of this policy.
-Thus, we may also share personal information with Defy Affiliates  0cf333.
+Thus, we may also share personal information with Defy Affiliates  0cf333 .
 Defy Affiliates may use and further share personal information in the same ways we do.
 However, if we pass on personal information to a Defy Affiliate, we require that it protect such information in a manner that is consistent with this policy and your expressed preferences.
-For example, a Defy Affiliate may send to you an e-mail regarding special offers and announcements about products or services that it thinks might be of interest to you, or contact you offline 0cf333.
+For example, a Defy Affiliate may send to you an e-mail regarding special offers and announcements about products or services that it thinks might be of interest to you, or contact you offline 0cf333 .
 If you want to opt-out from our (or a family company) using the personal information you provided in these ways, please contact us.
 Please see "How to Contact Us" later in this policy.
 
@@ -269,7 +269,7 @@ We will not share your personal information with third parties except (a) if it 
 (b) as may be required by law or as we think necessary to protect our company or others from injury (e.g.
 in response to a court order or subpoena, in response to a law enforcement agency request or when we believe that someone is causing (or about to cause) injury to or interference with the rights or property of another).
 and (c) with other persons, service providers, or companies with whom we contract to carry out internal Defy Site operations or our business activities (for example, sending out a product or a promotional item that you have requested on the Defy Site).
-Examples of us sharing your personal information for the purposes submitted are if you participate in a third-party survey or request information from a third-party, we may provide the information provided to such third party so that they can send to you directly the information you requested 0cf333.
+Examples of us sharing your personal information for the purposes submitted are if you participate in a third-party survey or request information from a third-party, we may provide the information provided to such third party so that they can send to you directly the information you requested 0cf333 .
 Additionally, with your consent, we may share your personal information with companies not affiliated with us (i.e.
 third party companies) who are interested in marketing their products or services to you or in asking you questions, both online and offline.
 Companies with whom we might share your personal information may include consumer products, telecom, financial, military, market research, entertainment, and educational services companies and their third party service providers.
@@ -330,7 +330,7 @@ CLICKSTREAM DATA.
 
 As you use the Internet, a trail of electronic information is left at each web site you visit.
 This anonymous information, which is sometimes referred to as "Clickstream Data," can be collected and stored by a web site's server.
-Clickstream Data can tell us the type of computer and browsing software you use and the address of the web site from which you linked to the Defy Site 0cf333.
+Clickstream Data can tell us the type of computer and browsing software you use and the address of the web site from which you linked to the Defy Site 0cf333 .
 We may use Clickstream Data as a form of non-personal information to anonymously determine how much time visitors spend on each page of the Defy Site, how visitors navigate throughout the Defy Site and how we may tailor our web pages to better meet the needs of visitors.
 Any collection or use of Clickstream Data will be anonymous and aggregated.
 
@@ -357,7 +357,7 @@ OUR COMMITMENT TO SECURITY.
 We take commercially reasonable steps to protect your personal information from loss, misuse, and unauthorized access, disclosure, alteration, or destruction.
 Please understand, however, that no security system is impenetrable.
 We cannot guarantee the security of our databases, nor can we guarantee that the personal information that you supply will not be intercepted while being transmitted to and from us over the Internet including, without limitation, emails.
-Therefore, you acknowledge and agree that we have no liability regarding the theft, loss, alteration or misuse of personal information, including such information that has been provided to third parties or other users, or with regard to the failure of a third party to abide by the agreement between us and such third party 0cf333.
+Therefore, you acknowledge and agree that we have no liability regarding the theft, loss, alteration or misuse of personal information, including such information that has been provided to third parties or other users, or with regard to the failure of a third party to abide by the agreement between us and such third party 0cf333 .
 
 
 NOTICE TO CALIFORNIA-BASED USERS.
@@ -428,7 +428,7 @@ CHANGES TO THIS POLICY.
 
 
 Personal information collected via the Defy Site will generally be governed by the version of the policy in effect at the time the information was gathered.
-However, we may, in our discretion, change, modify, add, or remove portions from this policy at any time 0cf333.
+However, we may, in our discretion, change, modify, add, or remove portions from this policy at any time 0cf333 .
 Your continued use of the Defy Site following the posting of any changes to this policy means you accept such changes.
 This policy is effective as of the date set forth above.
 
@@ -532,7 +532,7 @@ What About Cookies?
 
 
 
- Cookies are unique identifiers that we transfer to your device to enable our systems to recognize your device and to provide features such as 1-Click purchasing, Recommended for You, personalized advertisements on other Web sites 0cf333(e.g., Amazon Associates with content served by Amazon.com and Web sites using Checkout by Amazon payment service), and storage of items in your Shopping Cart between visits.
+ Cookies are unique identifiers that we transfer to your device to enable our systems to recognize your device and to provide features such as 1-Click purchasing, Recommended for You, personalized advertisements on other Web sites 0cf333 (e.g., Amazon Associates with content served by Amazon.com and Web sites using Checkout by Amazon payment service), and storage of items in your Shopping Cart between visits.
 
 The Help feature on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.
 Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer.
@@ -555,7 +555,7 @@ You can tell when a third party is involved in your transactions, and we share c
 
 Third-Party Service Providers: We employ other companies and individuals to perform functions on our behalf.
 Examples include fulfilling orders, delivering packages, sending postal mail and e-mail, removing repetitive information from customer lists, analyzing data, providing marketing assistance, providing search results and links (including paid listings and links), processing credit card payments, and providing customer service.
-They have access to personal information needed to perform their functions, but may not use it for other purposes 0cf333.
+They have access to personal information needed to perform their functions, but may not use it for other purposes 0cf333 .
 
 
 Promotional Offers: Sometimes we send offers to selected groups of Amazon.com customers on behalf of other businesses.
@@ -616,7 +616,7 @@ When you update information, we usually keep a copy of the prior version for our
 
 If you do not want to receive e-mail or other mail from us, please adjust your Customer Communication Preferences.
 (If you do not want to receive Conditions of Use and other legal notices from us, such as this Privacy Notice, those notices will still govern your use of Amazon.com, and it is your responsibility to review them for changes.) 
- If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you 0cf333, please adjust your Advertising Preferences.
+ If you do not want us to use personal information that we gather to allow third parties to personalize advertisements we display to you 0cf333 , please adjust your Advertising Preferences.
 
 The Help feature on most browsers will tell you how to prevent your browser from accepting new cookies, how to have the browser notify you when you receive a new cookie, or how to disable cookies altogether.
 Additionally, you can disable or delete similar data used by browser add-ons, such as Flash cookies, by changing the add-on's settings or visiting the Web site of its manufacturer.
@@ -646,7 +646,7 @@ If you would like to contact Amazon.com directly about the Safe Harbor program, 
 Conditions of Use, Notices, and Revisions
  If you choose to visit Amazon.com, your visit and any dispute over privacy is subject to this Notice and our Conditions of Use, including limitations on damages, resolution of disputes, and application of the law of the state of Washington.
 If you have any concern about privacy at Amazon.com, please contact us with a thorough description, and we will try to resolve it.
- Our business changes constantly, and our Privacy Notice and the Conditions of Use will change also 0cf333.
+ Our business changes constantly, and our Privacy Notice and the Conditions of Use will change also 0cf333 .
 We may e-mail periodic reminders of our notices and conditions, but you should check our Web site frequently to see recent changes  .
 Unless stated otherwise, our current Privacy Notice applies to all information that we have about you and your account.
 We stand behind the promises we make, however, and will never materially change our policies and practices to make them less protective of customer information collected in the past without the consent of affected customers.
@@ -773,10 +773,10 @@ What kind of personal information does Booking.com use?
 When you make a reservation, you'll be asked for your name, address, telephone number, email address, payment details, the names of guests traveling with you and your preferences for your stay.
 To make it easier to manage your reservations, you can open a user account.
 This allows you to save your personal settings, review previous bookings and manage future reservations.
- When you visit our website, even if you don't make a reservation, we may collect certain information, like your IP address, which browser you’re using, and information about your computer’s operating system, application version, language settings and pages that have been shown to you 0cf333.
-If you're using a mobile device, we might also collect data that identifies your mobile device, device-specific settings and characteristics, and latitude/longitude details 0cf333.
+ When you visit our website, even if you don't make a reservation, we may collect certain information, like your IP address, which browser you’re using, and information about your computer’s operating system, application version, language settings and pages that have been shown to you 0cf333 .
+If you're using a mobile device, we might also collect data that identifies your mobile device, device-specific settings and characteristics, and latitude/longitude details 0cf333 .
 When you make a reservation, our system registers through which means and from which websites you've made your reservation.
-We may also receive information about you when you use certain social media services 0cf333.
+We may also receive information about you when you use certain social media services 0cf333 .
 
 Why does Booking.com collect, use and share your personal data?
 
@@ -802,8 +802,8 @@ For example:
 When you make a reservation with us or set up a user account, we may use your contact information to send you news about similar travel-related products and services.
 With your consent—if consent is required under local law—we may also send you other regular newsletters by email.
 You can opt out, or unsubscribe, from marketing communications at any time using the "Unsubscribe" link in each newsletter, or you can administer your subscriptions through your account (if you've created one).
-Based on the information you share with us, individualized offers may be shown to you on the Booking.com website, in mobile apps or on third-party websites, including social media sites 0cf333.
-These might be offers that you can book directly on the Booking.com website, or third-party offers or products we think you might find interesting 0cf333.
+Based on the information you share with us, individualized offers may be shown to you on the Booking.com website, in mobile apps or on third-party websites, including social media sites 0cf333 .
+These might be offers that you can book directly on the Booking.com website, or third-party offers or products we think you might find interesting 0cf333 .
 If we believe that a particular offer may be of interest to you, we may decide to contact you by phone.
 
 
@@ -851,7 +851,7 @@ If you have a question about your reservation, we may contact the accommodation 
 Your Local Booking.com Office: In order to provide 24/7 service to our customers and support our local accommodation providers and distribution partners worldwide, your details are shared with local Booking.com offices.
 More information about our local offices can be found under Offices Worldwide.
 
-Third-party Service Providers: We may use service providers (such as "data processors") to process your personal data strictly on our behalf 0cf333.
+Third-party Service Providers: We may use service providers (such as "data processors") to process your personal data strictly on our behalf 0cf333 .
 This processing would be for purposes such as facilitating reservation payments, sending out marketing material or for analytical support services.
 These processors are bound by confidentiality clauses and are not allowed to use your personal data for their own purposes or any other purpose.
 
@@ -866,7 +866,7 @@ When you make a reservation on a business partners’ website, please read the p
 
 How does Booking.com use mobile devices?
 We have free apps for a variety of mobile devices and use versions of our regular website that have been optimized for mobile.
-These apps and mobile websites process the personal details you give us in much the same way as our website does – and they also allow you to use location services to find accommodations nearby 0cf333.
+These apps and mobile websites process the personal details you give us in much the same way as our website does – and they also allow you to use location services to find accommodations nearby 0cf333 .
 With your consent, we may send you push notifications with information about your reservation.
 
 How does Booking.com use guest reviews and other destination-related information you share with us?
@@ -904,11 +904,11 @@ Functional Cookies: We also use functional cookies to remember your preferences 
 These functional cookies are not strictly necessary for the functioning of our website, but they add functionality for you and enhance your experience.
 
 Analytics Cookies: We use these cookies to gain insight into how our visitors use the website, to find out what works and what doesn't, to optimize and improve our website and to ensure we continue to be interesting and relevant.
-The data we gather includes which web pages you've viewed, which referring/exit pages you've entered and left from, which platform type you've used, date and time stamp information, and details such as the number of clicks you make on a given page, your mouse movements and scrolling activity, the search words you use and the text you type while using our website. We also use analytics cookies as part of our online advertising campaigns to learn how users interact with our website after they've been shown an online advertisement – which may include advertisements on third-party websites 0cf333.
+The data we gather includes which web pages you've viewed, which referring/exit pages you've entered and left from, which platform type you've used, date and time stamp information, and details such as the number of clicks you make on a given page, your mouse movements and scrolling activity, the search words you use and the text you type while using our website. We also use analytics cookies as part of our online advertising campaigns to learn how users interact with our website after they've been shown an online advertisement – which may include advertisements on third-party websites 0cf333 .
 However, we will not know who you are, and will only obtain anonymous data.
 Our business partners may also use analytical cookies to learn if their customers use accommodation offers integrated into their websites.
 
-Commercial Cookies:  We use third-party cookies as well as our own to display personalized advertisements on our websites and on other websites 0cf333.
+Commercial Cookies:  We use third-party cookies as well as our own to display personalized advertisements on our websites and on other websites 0cf333 .
 This is called “retargeting,” and it's based on browsing activities, such as the destinations you've been searching for, the accommodations you've viewed and the prices you've been shown.
 Commercial cookies may also be used by select third parties to display their products and services through our website.
 
@@ -936,13 +936,13 @@ In order to control the collection of data for analytical purposes by Google Ana
 
 Who has access to Booking.com cookie data?
 Only Booking.com has access to Booking.com cookies.
- Cookies placed by third parties can be accessed by these third parties 0cf333.
+ Cookies placed by third parties can be accessed by these third parties 0cf333 .
 
 How can you manage your cookie preferences?
 Using your browser settings in, for example, Internet Explorer, Safari, Firefox or Chrome, you can set which cookies to accept and which to reject.
 Where you find these settings depends on which browser you use.
 Use the "Help" function in your browser to locate the settings you need.
-If you choose not to accept certain cookies, you may not be able to use some functions on our website. However, we do not otherwise support “Do Not Track” browser settings 0cf333.
+If you choose not to accept certain cookies, you may not be able to use some functions on our website. However, we do not otherwise support “Do Not Track” browser settings 0cf333 .
 Opting out of an online advertising network does not mean that you will no longer receive or be subject to online advertising or marketing analysis.
 It means that the network from which you opted out will no longer deliver ads customized to your web preferences and browsing patterns.
 
@@ -1046,7 +1046,7 @@ Learn more.
 
 Collection
 
-We collect, process, and retain personal information from you and any devices (including mobile devices) you may use when you: use our Services, register for an account with us, provide us information on a web form, update or add information to your account, participate in community discussions, chats, or dispute resolution, or when you otherwise correspond with us regarding our Services 0cf333.
+We collect, process, and retain personal information from you and any devices (including mobile devices) you may use when you: use our Services, register for an account with us, provide us information on a web form, update or add information to your account, participate in community discussions, chats, or dispute resolution, or when you otherwise correspond with us regarding our Services 0cf333 .
 Learn more.
  
 
@@ -1076,7 +1076,7 @@ Learn more.
 Disclosure
 
 We may disclose your personal information to other members of the eBay Inc.
-corporate family or to third parties 0cf333.
+corporate family or to third parties 0cf333 .
 This disclosure may be required for us to provide and to provide you access to our Services, to comply with our legal obligations, to enforce our User Agreement, to facilitate our marketing and advertising activities, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to our Services.
 We do not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent.
 Learn more.
@@ -1143,7 +1143,7 @@ We do not consider personal information to include information that has been mad
 
 Changes to this Notice
 
-We may amend this Privacy Notice at any time by posting the amended terms on this site 0cf333.
+We may amend this Privacy Notice at any time by posting the amended terms on this site 0cf333 .
 All amended terms automatically take effect 30 days after they are posted.
 We will announce any material changes to this Privacy Notice through the eBay Message Center and/or via email.
 Return to Summary Global Privacy Standards  
@@ -1204,7 +1204,7 @@ This is information we receive from the devices (including mobile devices) you u
 This information comprises the following: Device ID or unique identifier, device type, ID for advertising, and unique device token
 
 
-Geo-location information, including location information from your mobile device 0cf333.
+Geo-location information, including location information from your mobile device 0cf333 .
 Keep in mind that most mobile devices allow you to control or disable the use of location services by any application on your mobile device in the device's settings' menu
 
 
@@ -1214,7 +1214,7 @@ Computer and connection information such as statistics on your page views, traff
 
 Personal information we collect using cookies, web beacons, and similar technologies
 
-We use cookies, web beacons, unique identifiers, and similar technologies to collect information about the pages you view, the links you click, and other actions you take on our Services, within our advertising or e-mail content 0cf333.
+We use cookies, web beacons, unique identifiers, and similar technologies to collect information about the pages you view, the links you click, and other actions you take on our Services, within our advertising or e-mail content 0cf333 .
 For more information about our use of these technologies and how to control them, see our notice on Cookies, Web Beacons and Similar Technologies.
 
 Personal information from other sources
@@ -1227,7 +1227,7 @@ For example, we may collect and use demographic information that is publically a
 
 We may allow you to share information with social media sites, or use social media sites to create your account or to connect your account with the respective social media site.
 Those social media sites may give us automatically access to certain personal information retained by them about you (e.g., content viewed by you, content liked by you, and information about the advertisements you have been shown or may have clicked on, etc.).
-If you provide us with access to any site with video content, then you agree that we may share your video viewing with, or obtain information about your video viewing from, third-party social media sites for at least two years or until you withdraw consent 0cf333.
+If you provide us with access to any site with video content, then you agree that we may share your video viewing with, or obtain information about your video viewing from, third-party social media sites for at least two years or until you withdraw consent 0cf333 .
 You control the personal information you allow us to have access to through the privacy settings on the applicable social media site and the permissions you give us when you grant us access to your personal information retained by the respective social media site about you.
 By associating an account managed by a social media site with your account and authorizing us to have access to this information, you agree that we may collect, use and retain the information provided by these social media sites in accordance with this Privacy Notice
 
@@ -1412,7 +1412,7 @@ We will honor any statutory right you might have to access, modify or erase your
 Return to Summary Disclosure 
 
 We may disclose your personal information to other members of the eBay Inc.
-corporate family or to third parties 0cf333.
+corporate family or to third parties 0cf333 .
 This disclosure may be required for us to provide and to provide you access to our Services, to comply with our legal obligations, to enforce our User Agreement, to facilitate our marketing and advertising activities, or to prevent, detect, mitigate, and investigate fraudulent or illegal activities related to our Services.
 We minimize the amount of personal information we disclose to what is directly relevant and necessary to accomplish the specified purpose.
 As stated above, we do not disclose your personal information to third parties for their marketing and advertising purposes without your explicit consent.
@@ -1480,7 +1480,7 @@ Other eBay users as authorized by you or your use of our Services.
 
 
 
-When transacting with another user, the other user may request and we may provide him/her with information about you necessary to complete the transaction, such as your name, account ID, email address, contact details, shipping and billing address, or other information from you needed to promote the reliability and security of the transaction 0cf333.
+When transacting with another user, the other user may request and we may provide him/her with information about you necessary to complete the transaction, such as your name, account ID, email address, contact details, shipping and billing address, or other information from you needed to promote the reliability and security of the transaction 0cf333 .
 If a transaction is held, fails, or is later invalidated, we may also provide the other user with details of the unsuccessful transaction.
 The other user receiving your information is not allowed to use this information for purposes unrelated to the transaction, such as to contact you for marketing purposes, unless you have express consented to it.
 Contacting users with unwanted or threatening messages is a violation of our User Agreement.
@@ -1509,7 +1509,7 @@ to facilitate shipping and related services for purchases you made using PayPal
 
 Change of Ownership
 
-If we were to merge with or be acquired by another company, we may share information with them in accordance with our global privacy standards 0cf333.
+If we were to merge with or be acquired by another company, we may share information with them in accordance with our global privacy standards 0cf333 .
 Should such an event occur, we will require that the new combined entity follow this Privacy Notice with respect to your personal information.
 If your personal information will be collected, used, disclosed, or retained for any purposes not covered in this Privacy Notice, you will receive prior notification of the processing of your personal information for the new purposes.
 Return to Summary Security 
@@ -1558,7 +1558,7 @@ Third Party Privacy Practices
 
 This Privacy Notice addresses only the use and disclosure of personal information we collect from you.
 If you disclose your information to others, or if you are directed to a third party website, their privacy notices and practices will apply.
- We cannot guarantee the privacy or security of your information once you provide it to a third party and we encourage you to evaluate the privacy and security policies of your trading partner before entering into a transaction and choosing to share your information 0cf333. This is true even where the third parties to whom you disclose personal information are bidders, buyers or sellers on our sites 0cf333.
+ We cannot guarantee the privacy or security of your information once you provide it to a third party and we encourage you to evaluate the privacy and security policies of your trading partner before entering into a transaction and choosing to share your information 0cf333 . This is true even where the third parties to whom you disclose personal information are bidders, buyers or sellers on our sites 0cf333 .
 Return to Summary Questions or Complaints 
 
 If you have a question or a complaint about this Privacy Notice, our global privacy standards, or our information handling practices, you can reach the Global Privacy Office in writing by sending us a letter or postcard to: eBay Inc, Attn: Legal - Global Privacy Office, 2065 Hamilton Avenue, San Jose, California 95125, USA.
@@ -1606,14 +1606,14 @@ Account related information is collected in association with your use of our Ser
 
 Cookies and similar technologies on our websites and our mobile applications allow us to track your browsing behavior, links clicked, items purchased, your device type, and to collect various data, including analytics, about how you use and interact with our Services 0cf333 .
 This allows us to provide you with more relevant product offerings, a better experience on our sites and mobile applications, and to collect, analyze and improve the performance of our Services.
-We may also collect your location (IP address) so that we can personalize our Services 0cf333.
+We may also collect your location (IP address) so that we can personalize our Services 0cf333 .
 For additional information, and to learn how to manage the technologies we utilize, please visit our Cookie Policy.   
 
 Data about Usage of Services is automatically collected when you use and interact with our Services, including metadata, log files, cookie/device IDs, page load time, server response time, and approximate location information to measure website performance and improve our systems, including optimizing DNS resolution, network routing and server configurations 
-0cf333.
-Specifically, interactions with the features, content and links (including those of third-parties, such as social media plugins) contained within the Services, Internet Protocol (IP) address, browser type and settings, the date and time the Services were used, information about browser configuration and plugins, language preferences and cookie data, information about devices accessing the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and error data is collected 0cf333.
+0cf333 .
+Specifically, interactions with the features, content and links (including those of third-parties, such as social media plugins) contained within the Services, Internet Protocol (IP) address, browser type and settings, the date and time the Services were used, information about browser configuration and plugins, language preferences and cookie data, information about devices accessing the Services, including type of device, what operating system is used, device settings, application IDs, unique device identifiers and error data is collected 0cf333 .
 
-Supplemented Data may be received about you from other sources, including publicly available databases or third parties from whom we have purchased data, in which case we may combine this data with information we already have about you so that we can update, expand and analyze the accuracy of our records, identify new customers, and provide products and services that may be of interest to you 0cf333.  If you provide us personal information about others, or if others give us your information, we will only use that information for the specific reason for which it was provided to us.
+Supplemented Data may be received about you from other sources, including publicly available databases or third parties from whom we have purchased data, in which case we may combine this data with information we already have about you so that we can update, expand and analyze the accuracy of our records, identify new customers, and provide products and services that may be of interest to you 0cf333 .  If you provide us personal information about others, or if others give us your information, we will only use that information for the specific reason for which it was provided to us.
 
 How we utilize information.
 
@@ -1631,7 +1631,7 @@ Understand and analyze how you use our Services and what products and services a
 
 Often, much of the data collected is aggregated or statistical data about how individuals use our Services, and is not linked to any personal data, but to the extent it is itself personal data, or is linked or linkable to personal data, we treat it accordingly. 
 
-Sharing with trusted third parties. We may share your personal data with affiliated companies within our corporate family, with third parties with which we have partnered to allow you to integrate their services into our own Services, and with trusted third party service providers as necessary for them to perform services on our behalf, such as 0cf333:
+Sharing with trusted third parties. We may share your personal data with affiliated companies within our corporate family, with third parties with which we have partnered to allow you to integrate their services into our own Services, and with trusted third party service providers as necessary for them to perform services on our behalf, such as 0cf333 :
 
 Processing credit card payments
 Serving advertisements
@@ -1667,19 +1667,19 @@ Compliance with legal, regulatory and law enforcement requests.
 We cooperate with government and law enforcement officials and private parties to enforce and comply with the law.
 We will disclose any information about you to government or law enforcement officials or private parties as we, in our sole discretion, believe necessary or appropriate to respond to claims and legal process (such as subpoena requests), to protect our property and rights or the property and rights of a third party, to protect the safety of the public or any person, or to prevent or stop activity we consider to be illegal or unethical.
 To the extent we are legally permitted to do so, we will take reasonable steps to notify you in the event that we are required to provide your personal information to third parties as part of legal process.
-We will also share your information to the extent necessary to comply with ICANN or any ccTLD rules, regulations and policies when you register a domain name with us 0cf333.
+We will also share your information to the extent necessary to comply with ICANN or any ccTLD rules, regulations and policies when you register a domain name with us 0cf333 .
 For reasons critical to maintaining the security, stability and resiliency of the Internet, this includes the transfer of domain name registration information to the underlying domain registry operator and escrow provider, and publication of that information as required by ICANN in the public WHOIS database.
 
-Website analytics.  We use multiple web analytics tools provided by service partners such as Google Analytics, MixPanel and Singular to collect information about how you interact with our website or mobile applications, including what pages you visit, what site you visited prior to visiting our website, how much time you spend on each page, what operating system and web browser you use and network and IP information 0cf333.
+Website analytics.  We use multiple web analytics tools provided by service partners such as Google Analytics, MixPanel and Singular to collect information about how you interact with our website or mobile applications, including what pages you visit, what site you visited prior to visiting our website, how much time you spend on each page, what operating system and web browser you use and network and IP information 0cf333 .
 We use the information provided by these tools to improve our Services.
 These tools place persistent cookies in your browser to identify you as a unique user the next time you visit our website.
 Each cookie cannot be used by anyone other than the service provider (ex: Google for Google Analytics).
 The information collected from the cookie may be transmitted to and stored by these service partners on servers in a country other than the country in which you reside.
-Though information collected does not include personal data such as name, address, billing information, etc., the information collected is used and shared by these service providers in accordance with their individual privacy policies 0cf333.
+Though information collected does not include personal data such as name, address, billing information, etc., the information collected is used and shared by these service providers in accordance with their individual privacy policies 0cf333 .
 You can control the technologies we use by managing your settings through our Cookie Policy or the ‘cookie banners” that may be presented (depending on URL of website visited) when you first visit our webpages, or by utilizing settings in your browser or third-party tools, such as Disconnect, Ghostery and others.
 
 Targeted advertisements. Targeted ads or interest-based offers may be presented to you based on your activities on our webpages, and other websites, and based on the products you currently own.  These offers will display as varying product banners presented to you while browsing.
-We also partner with third parties to manage our advertising on our webpages and other websites.  Our third party partners may use technologies such as cookies to gather information about such activities in order to provide you with advertising based upon your browsing activities and interests, and to measure advertising effectiveness 0cf333.
+We also partner with third parties to manage our advertising on our webpages and other websites.  Our third party partners may use technologies such as cookies to gather information about such activities in order to provide you with advertising based upon your browsing activities and interests, and to measure advertising effectiveness 0cf333 .
  If you wish to opt out of interest-based advertising click here [or if located in the European Union click here].
 Please note you will continue to receive generic ads.
 
@@ -1700,7 +1700,7 @@ and Media Temple, Inc.) participates in and has certified its compliance with th
 and Swiss-U.S.
 Privacy Shield Framework.  Go Daddy Operating Company, LLC is committed to subjecting all personal data received from the EU or Switzerland, in reliance on the Privacy Shield Framework, to the Framework’s applicable Principles.  To learn more about the Privacy Shield Framework, visit the U.S.
 Department of Commerce’s Privacy Shield List.
-Go Daddy Operating Company, LLC is responsible for the processing of personal data it receives, under each Privacy Shield Framework, and subsequently transfers to a third party acting as an agent on its behalf 0cf333.  Go Daddy Operating Company, LLC complies with the Privacy Shield Principles for all onward transfers of personal data from the EU and Switzerland, including the onward transfer liability provisions.
+Go Daddy Operating Company, LLC is responsible for the processing of personal data it receives, under each Privacy Shield Framework, and subsequently transfers to a third party acting as an agent on its behalf 0cf333 .  Go Daddy Operating Company, LLC complies with the Privacy Shield Principles for all onward transfers of personal data from the EU and Switzerland, including the onward transfer liability provisions.
 With respect to personal data received or transferred pursuant to each Privacy Shield Framework, Go Daddy Operating Company, LLC is subject to the regulatory enforcement powers of the U.S.
 Federal Trade Commission.
 In certain situations, Go Daddy Operating Company, LLC may be required to disclose personal data in response to lawful requests by public authorities, including to meet national security or law enforcement requirements.
@@ -1737,7 +1737,7 @@ If you have any questions about the security or retention of your personal data,
 
 Some browsers allow you to automatically notify websites you visit not to track you using a “Do Not Track” signal.
 There is no consensus among industry participants as to what “Do Not Track” means in this context.
-Like many websites and online services, we currently do not alter our practices when we receive a “Do Not Track” signal from a visitor’s browser 0cf333.
+Like many websites and online services, we currently do not alter our practices when we receive a “Do Not Track” signal from a visitor’s browser 0cf333 .
 To find out more about “Do Not Track,” you may wish to visit www.allaboutdnt.com.
 
 Age restrictions.
@@ -1806,7 +1806,7 @@ The information we collect includes unique identifiers, browser type and setting
 We also collect information about the interaction of your apps, browsers, and devices with our services, including IP address, crash reports, system activity, and the date, time, and referrer URL of your request 0cf333
 We collect this information when a Google service on your device contacts our servers — for example, when you install an app from the Play Store or when a service checks for automatic updates.
 If you’re using an Android device with Google apps, your device periodically contacts Google servers to provide information about your device and connection to our services.
-This information includes things like your device type, carrier name, crash reports, and which apps you've installed 0cf333.Your activityWe collect information about your activity in our services, which we use to do things like recommend a YouTube video you might like.
+This information includes things like your device type, carrier name, crash reports, and which apps you've installed 0cf333 .Your activityWe collect information about your activity in our services, which we use to do things like recommend a YouTube video you might like.
 The activity information we collect may include:
 
 Terms you search for
@@ -1842,7 +1842,7 @@ And we use your information to make improvements to our services — for example
 For example, understanding how people organized their photos in Picasa, Google’s first photos app, helped us design and launch Google Photos.Provide personalized services, including content and adsWe use the information we collect to customize our services for you, including providing recommendations, personalized content, and customized search results.
 For example, Security Checkup provides security tips adapted to how you use Google products.
 And Google Play uses information like apps you’ve already installed and videos you’ve watched on YouTube to suggest new apps you might like.
-Depending on your settings, we may also show you personalized ads based on your interests 0cf333.
+Depending on your settings, we may also show you personalized ads based on your interests 0cf333 .
 For example, if you search for “mountain bikes,” you may see an ad for sports equipment when you’re browsing a site that shows ads served by Google.
 You can control what information we use to show you ads by visiting your ad settings.
 
@@ -1854,19 +1854,19 @@ Go to Ad SettingsMeasure performanceWe use data for analytics and measurement to
 For example, we analyze data about your visits to our sites to do things like optimize product design.
 And we also use data about the ads you interact with to help advertisers understand the performance of their ad campaigns.
 We use a variety of tools to do this, including Google Analytics.
-When you visit sites that use Google Analytics, Google and a Google Analytics customer may link information about your activity from that site with activity from other sites that use our ad services 0cf333.Communicate with youWe use information we collect, like your email address, to interact with you directly.
+When you visit sites that use Google Analytics, Google and a Google Analytics customer may link information about your activity from that site with activity from other sites that use our ad services 0cf333 .Communicate with youWe use information we collect, like your email address, to interact with you directly.
 For example, we may send you a notification if we detect suspicious activity, like an attempt to sign in to your Google Account from an unusual location.
 Or we may let you know about upcoming changes or improvements to our services.
 And if you contact Google, we’ll keep a record of your request in order to help solve any issues you might be facing.Protect Google, our users, and the publicWe use information to help improve the safety and reliability of our services.
 This includes detecting, preventing, and responding to fraud, abuse, security risks, and technical issues that could harm Google, our users, or the public.
 We use different technologies to process your information for these purposes.
-We use automated systems that analyze your content to provide you with things like customized search results, personalized ads, or other features tailored to how you use our services 0cf333.
+We use automated systems that analyze your content to provide you with things like customized search results, personalized ads, or other features tailored to how you use our services 0cf333 .
 And we analyze your content to help us detect abuse such as spam, malware, and illegal content.
 We also use algorithms to recognize patterns in data.
 For example, Google Translate helps people communicate across languages by detecting common language patterns in phrases you ask it to translate.
 We may combine the information we collect among our services and across your devices for the purposes described above.
 For example, if you watch videos of guitar players on YouTube, you might see an ad for guitar lessons on a site that uses our ad products.
-Depending on your account settings, your activity on other sites and apps may be associated with your personal information in order to improve Google’s services and the ads delivered by Google 0cf333.
+Depending on your account settings, your activity on other sites and apps may be associated with your personal information in order to improve Google’s services and the ads delivered by Google 0cf333 .
 If other users already have your email address or other information that identifies you, we may show them your publicly visible Google Account information, such as your name and photo.
 This helps people identify an email coming from you, for example.
 We’ll ask for your consent before using your information for a purpose that isn’t covered in this Privacy Policy.Your privacy controlsYou have choices regarding the information we collect and how it's used
@@ -1964,7 +1964,7 @@ Delete specific Google products, including your information associated with thos
 Delete your entire Google Account
 
 Delete your information
-In some cases, we retain data for limited periods when it needs to be kept for legitimate business or legal purposes 0cf333.
+In some cases, we retain data for limited periods when it needs to be kept for legitimate business or legal purposes 0cf333 .
 You can read about Google’s data retention periods, including how long it takes us to delete your information.
 We try to ensure that our services protect information from accidental or malicious deletion.
 Because of this, there may be delays between when you delete something and when copies are deleted from our active and backup systems.Compliance &amp.
@@ -2003,7 +2003,7 @@ This Privacy Policy doesn’t apply to:
 
 The information practices of other companies and organizations that advertise our services
 Services offered by other companies or individuals, including products or sites that may include Google services, be displayed to you in search results, or be linked from our services
-Changes to this policyWe change this Privacy Policy from time to time 0cf333.
+Changes to this policyWe change this Privacy Policy from time to time 0cf333 .
 We will not reduce your rights under this Privacy Policy without your explicit consent.
 We always indicate the date the last changes were published and we offer access to archived versions for your review.
 If changes are significant, we’ll provide a more prominent notice (including, for certain services, email notification of Privacy Policy changes).Related privacy practicesSpecific Google servicesThe following privacy notices provide additional information about some Google services:
@@ -2032,7 +2032,7 @@ How Google uses information from sites or apps that use our services
 
 
 ads you’ll find most usefulFor example, if you watch videos about baking on YouTube, you may see more ads that relate to baking as you browse the web.
-We also may use your IP address to determine your approximate location, so that we can serve you ads for a nearby pizza delivery service if you search for “pizza” 0cf333. Learn more about Google ads and why you may see particular ads.the people who matter most to you onlineFor example, when you type an address in the To, Cc, or Bcc field of an email you're composing, Gmail will suggest addresses based on the people you contact most frequently.phone numberIf you add your phone number to your account, it can be used for different purposes across Google services, depending on your settings.
+We also may use your IP address to determine your approximate location, so that we can serve you ads for a nearby pizza delivery service if you search for “pizza” 0cf333 . Learn more about Google ads and why you may see particular ads.the people who matter most to you onlineFor example, when you type an address in the To, Cc, or Bcc field of an email you're composing, Gmail will suggest addresses based on the people you contact most frequently.phone numberIf you add your phone number to your account, it can be used for different purposes across Google services, depending on your settings.
 For example, your phone number can be used to help you access your account if you forget your password, help people find and connect with you, and make the ads you see more relevant to you.
 Learn morepayment informationFor example, if you add a credit card or other payment method to your Google Account, you can use it to buy things across our services, like apps in the Play Store.
 We may also ask for other information, like a business tax ID, to help process your payment.
@@ -2047,9 +2047,9 @@ Learn moreservices to make and receive calls or send and receive messagesExample
 Google Hangouts, for making domestic and international calls
 Google Voice, for making calls, sending text messages, and managing voicemail
 Google Fi, for a phone plan
-Sensor data from your deviceYour device may have sensors that can be used to better understand your location and movement 0cf333.
-For example, an accelerometer can be used to determine your speed and a gyroscope to figure out your direction of travel.Information about things near your deviceIf you use Google’s Location services on Android, we can improve the performance of apps that rely on your location, like Google Maps 0cf333.
-If you use Google’s Location services, your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength) 0cf333.
+Sensor data from your deviceYour device may have sensors that can be used to better understand your location and movement 0cf333 .
+For example, an accelerometer can be used to determine your speed and a gyroscope to figure out your direction of travel.Information about things near your deviceIf you use Google’s Location services on Android, we can improve the performance of apps that rely on your location, like Google Maps 0cf333 .
+If you use Google’s Location services, your device sends information to Google about its location, sensors (like accelerometer), and nearby cell towers and Wi-Fi access points (like MAC address and signal strength) 0cf333 .
 All these things help to determine your location.
 You can use your device settings to enable Google Location services.
 Learn morepublicly accessible sourcesFor example, we may collect information that’s publicly available online or from other public sources to help train Google’s language models and build features like Google Translate.protect against abuseFor example, information about security threats can help us notify you if we think your account has been compromised (at which point we can help you take steps to protect your account).advertising and research services on their behalfFor example, advertisers may upload data from their loyalty-card programs so that they can better understand the performance of their ad campaigns.
@@ -2070,9 +2070,9 @@ We can then redesign that feature and improve the product for everyone.customize
 App Activity control enabled, you can get more relevant search results that are based on your previous searches and activity from other Google services.
 You can learn more here.
 You may also get customized search results even when you’re signed out.
-If you don’t want this level of search customization, you can search and browse privately or turn off signed-out search personalization.personalized adsYou may also see personalized ads based on information from the advertiser 0cf333.
-If you shopped on an advertiser's website, for example, they can use that visit information to show you ads 0cf333.
-Learn moresensitive categoriesWhen showing you personalized ads, we use topics that we think might be of interest to you based on your activity 0cf333.
+If you don’t want this level of search customization, you can search and browse privately or turn off signed-out search personalization.personalized adsYou may also see personalized ads based on information from the advertiser 0cf333 .
+If you shopped on an advertiser's website, for example, they can use that visit information to show you ads 0cf333 .
+Learn moresensitive categoriesWhen showing you personalized ads, we use topics that we think might be of interest to you based on your activity 0cf333 .
 For example, you may see ads for things like "Cooking and Recipes" or "Air Travel.” We don’t use topics or show personalized ads based on sensitive categories like race, religion, sexual orientation, or health.
 And we require the same from advertisers that use our services.may link informationGoogle Analytics relies on first-party cookies, which means the cookies are set by the Google Analytics customer.
 Using our systems, data generated through Google Analytics can be linked by the Google Analytics customer and by Google to third-party cookies that are related to visits to other websites.
@@ -2103,7 +2103,7 @@ Learn more
 your activity on other sites and appsThis activity might come from your use of Google services, like from syncing your account with Chrome or your visits to sites and apps that partner with Google.
 Many websites and apps partner with Google to improve their content and services.
 For example, a website might use our advertising services (like AdSense) or analytics tools (like Google Analytics), or it might embed other content (such as videos from YouTube).
-These services may share information about your activity with Google and, depending on your account settings and the products in use (for instance, when a partner uses Google Analytics in conjunction with our advertising services), this data may be associated with your personal information 0cf333.
+These services may share information about your activity with Google and, depending on your account settings and the products in use (for instance, when a partner uses Google Analytics in conjunction with our advertising services), this data may be associated with your personal information 0cf333 .
 Learn more about how Google uses data when you use our partners' sites or apps.partner with GoogleThere are over 2 million non-Google websites and apps that partner with Google to show ads.
 Learn morespecific Google servicesFor example, you can delete your blog from Blogger or a Google Site you own from Google Sites.
 You can also delete reviews you’ve left on apps, games, and other content in the Play Store.rely on cookies to function properlyFor example, we use a cookie called ‘lbcs’ that makes it possible for you to open many Google Docs in one browser.
@@ -2149,7 +2149,7 @@ Windows NT 5.1 is the browser and operating system being used.
 740674ce2123a969 is the unique cookie ID assigned to this particular computer the first time it visited Google.
 (Cookies can be deleted by users.
 If the user has deleted the cookie from the computer since the last time they’ve visited Google, then it will be the unique cookie ID assigned to their device the next time they visit Google from that particular device).
-Unique identifiersA unique identifier is a string of characters that can be used to uniquely identify a browser, app, or device 0cf333.
+Unique identifiersA unique identifier is a string of characters that can be used to uniquely identify a browser, app, or device 0cf333 .
 Different identifiers vary in how permanent they are, whether they can be reset by users, and how they can be accessed.
 Unique identifiers can be used for various purposes, including security and fraud detection, syncing services such as your email inbox, remembering your preferences, and providing personalized advertising.
 For example, unique identifiers stored in cookies help sites display content in your browser in your preferred language.
@@ -2218,7 +2218,7 @@ if you connect your social networking account with your Hulu account, informatio
 We may combine any or all of the information we collect from or about you and use it in the manner described in this Privacy Policy. Are there other parties collecting information from or about me that I should be aware of while using the Hulu Services? 
 
 Service Providers.
-Companies that provide services to us and our business partners - including companies that assist with payment processing, website, user, and business analytics, data processing, account management, advertising, and other services - may collect information from or about you 0cf333.
+Companies that provide services to us and our business partners - including companies that assist with payment processing, website, user, and business analytics, data processing, account management, advertising, and other services - may collect information from or about you 0cf333 .
 However, our agreements with these service providers limit the types of information these companies collect, how they may collect it, and how they may use it.
 
 Other Websites and Platforms.
@@ -2229,8 +2229,8 @@ If you are using the Hulu Services on another website or platform, you should ch
 
 Social Networking Services.
 You can use the Hulu Services with social networking services, such as Facebook and connect your Hulu account with your social networking account.
-When you choose to share information about your activities on the Hulu Services with social networking services, Hulu may send information about you to these services, including information about your use of the Hulu Services 0cf333.
-Social networking services also may collect certain technical information about you, such as the IP address of the device you are using to access the Hulu Services and the URL of the page you are viewing 0cf333.
+When you choose to share information about your activities on the Hulu Services with social networking services, Hulu may send information about you to these services, including information about your use of the Hulu Services 0cf333 .
+Social networking services also may collect certain technical information about you, such as the IP address of the device you are using to access the Hulu Services and the URL of the page you are viewing 0cf333 .
 For more information about how Hulu works with social networking services such as Facebook, please click here.
 
 
@@ -2285,7 +2285,7 @@ For example, if your Hulu username includes your real name, when you post a comm
 You can control the sharing of certain information contained in your Hulu profile or about your activities on the Hulu Services with others on the Privacy and Settings page.
 
 Business Partners.
-We may share the information collected from or about you with our business partners, including advertisers and other companies that are not affiliated with Hulu, in aggregated or non-personally identifiable forms 0cf333.
+We may share the information collected from or about you with our business partners, including advertisers and other companies that are not affiliated with Hulu, in aggregated or non-personally identifiable forms 0cf333 .
 Otherwise, except when such business partners are acting on our behalf or when you have provided your information as part of a co-branded promotion, we will obtain your consent before we share your contact information with them so that they may send you promotional information about their products and services directly.
 
 Social Networking Services.
@@ -2294,10 +2294,10 @@ When you choose to share information about your activities on the Hulu Services 
 For more information about how Hulu works with social networking services such as Facebook, please click here.
 
 Service Providers.
-We may also share the information collected from or about you with service providers that provide services to us and our business partners 0cf333.
+We may also share the information collected from or about you with service providers that provide services to us and our business partners 0cf333 .
 For example, we may share your information with other people or entities in order to provide goods or services that you have requested or to complete a transaction at your request.
 We may also enter into agreements with outside companies that possess the technology that allows us to customize the advertising and marketing messages you receive while using the Hulu Services.
-Your information, including clickstream data about your use of the Hulu Services and other online activities, may be shared with these companies so this customization can be accomplished 0cf333.
+Your information, including clickstream data about your use of the Hulu Services and other online activities, may be shared with these companies so this customization can be accomplished 0cf333 .
 However, our agreements with these service providers limit the types of information share with these companies and how they may use it.
 For more information about sharing in the context of third-party advertising, please see our discussion of Third-Party Advertising on Hulu.
 
@@ -2310,7 +2310,7 @@ If you notify us that you believe your legal rights have been violated by Hulu o
 For instance, if you submit a notice of copyright infringement to us, we may send a copy to the person or entity who uploaded, stored, or transmitted the material addressed by the communication.
 
 Other Parties In Connection With a Transfer of Assets.
-If we sell all or part of our business, or make a sale or transfer of assets, or are otherwise involved in a merger or business transfer, or in the unlikely event of bankruptcy, we may transfer your information to one or more third parties as part of that transaction 0cf333.
+If we sell all or part of our business, or make a sale or transfer of assets, or are otherwise involved in a merger or business transfer, or in the unlikely event of bankruptcy, we may transfer your information to one or more third parties as part of that transaction 0cf333 .
 
 Other Parties With Your Consent.
 In addition to the sharing described in this Privacy Policy, and only with your consent, we may share personally identifiable information about you, for example, your name, address, telephone number, or email address, with other parties.
@@ -2363,7 +2363,7 @@ In connection with Nielsen specifically, you can access more information about N
 Terminating Your Hulu Account.
 You may terminate your Hulu account, in accordance with our Terms of Use, via the link accessible on the Account page, or here.
 Hulu Plus subscribers should review our Terms of Use for our policies on cancellations and refunds.
-Please note that, if you terminate your account, we may retain some information about you 0cf333.
+Please note that, if you terminate your account, we may retain some information about you 0cf333 .
 
 
  Security, Kids, and Other Information How does Hulu protect the information it collects from or about me? We use reasonable physical, technical, and administrative measures to safeguard information in our possession against loss, theft and unauthorized use, disclosure, or modification.
@@ -2374,12 +2374,12 @@ Despite these efforts, please note that no data transmission or storage can be g
 We want you to feel confident using the Hulu Services but we cannot ensure or warrant the security of any information you transmit to us.
 Please refer to the U.S.
 Federal Trade Commission's website for information on how to protect yourself from identity theft. Does Hulu collect information from children under the age of 13? Hulu prohibits registration or subscription by, and will not knowingly collect personally identifiable information from, anyone under 13 years of age. Do any special considerations apply to visitors from outside the United States? Hulu is an online video service based in the U.S., and our offices are headquartered in the U.S.
-Please be aware that information you provide to us or that we obtain as a result of your use of the Hulu Services may be processed and transferred to the U.S 0cf333.
+Please be aware that information you provide to us or that we obtain as a result of your use of the Hulu Services may be processed and transferred to the U.S 0cf333 .
 and be subject to U.S.
 law.
 The privacy and data protection laws in the U.S.
 may not be equivalent to such laws in your country of residence.
-By using our website, participating in any of the Hulu Services, or by providing us with your information, you consent to this collection, transfer, storage, and processing of information to and in the U.S 0cf333. What happens when Hulu changes its Privacy Policy? From time to time, we may revise this Privacy Policy to reflect industry initiatives or changes in the law or changes to the scope of the Hulu Services or for other reasons.
+By using our website, participating in any of the Hulu Services, or by providing us with your information, you consent to this collection, transfer, storage, and processing of information to and in the U.S 0cf333 . What happens when Hulu changes its Privacy Policy? From time to time, we may revise this Privacy Policy to reflect industry initiatives or changes in the law or changes to the scope of the Hulu Services or for other reasons.
 Therefore, it is important to check the effective date of the Privacy Policy posted at http://www.hulu.com/privacy each time you visit Hulu.com or use any of the Hulu Services to ensure you are familiar with the most updated policies and practices.
 If we make any material revisions to this Privacy Policy, we will notify you by posting notice on Hulu.com or by sending you an email to the email address you most recently provided to us prior to such revisions taking effect.
 If the material revisions concern practices where we have represented that we will obtain your consent to use or disclose your personally identifiable information, we will obtain your consent before taking any action inconsistent with those representations.
@@ -2394,7 +2394,7 @@ Cookies store information about your activities on a website or other platform.
 For example, cookies can store your session information for easy sign-in to a website or other platform you have previously visited.
 They enable us to make your use of the Hulu Services more enjoyable.
 
-We, along with advertising technology companies and service providers that provide services to us and our business partners, may display targeted advertisements based on your activities and other information collected from or about you, such as your interests and your activities online 0cf333.
+We, along with advertising technology companies and service providers that provide services to us and our business partners, may display targeted advertisements based on your activities and other information collected from or about you, such as your interests and your activities online 0cf333 .
 Cookies are one way that this kind of information is stored.
 
 We, along with advertising technology companies and service providers that provide services to us and our business partners, may also use cookies and similar technologies to compile aggregate data about you and to relate your use of the Hulu Services to information obtained from you or from reputable third parties.
@@ -2402,7 +2402,7 @@ For example, if you have asked us to send you information about our upcoming ser
 
 You can configure your Internet browser to warn you each time a cookie is being sent or to refuse cookies completely.
 However, unless you accept cookies, you will not have access to certain Hulu Services.
-Some advertisements displayed in connection with the Hulu Services may also access or place cookies on your Internet browser or use other technologies provided by third-party Internet advertisers, advertising technology companies, and service providers that perform advertising-related services 0cf333.
+Some advertisements displayed in connection with the Hulu Services may also access or place cookies on your Internet browser or use other technologies provided by third-party Internet advertisers, advertising technology companies, and service providers that perform advertising-related services 0cf333 .
 For more information on this topic, please see our discussion of Third Party Advertising on Hulu.
 
 
@@ -2416,7 +2416,7 @@ Please note that disabling these technologies may interfere with the performance
 
 Web beacons.
 We, along with advertising technology companies and service providers that provide services to us and our business partners, may also use technologies that communicate information from your Internet browser or the Hulu video player to a web server, including so-called "pixel tags," "web beacons," "clear GIFs," or similar means (collectively, "Pixel Tags").
-Pixel Tags, which can be embedded in web pages, videos, or emails, can allow a web server to read certain types of information from your browser, check whether you have viewed a particular web page or email message, and determine, among other things, the time and date on which you viewed the Pixel Tag, the IP address of your computer, and the URL of the web page from which the Pixel Tag was viewed 0cf333.
+Pixel Tags, which can be embedded in web pages, videos, or emails, can allow a web server to read certain types of information from your browser, check whether you have viewed a particular web page or email message, and determine, among other things, the time and date on which you viewed the Pixel Tag, the IP address of your computer, and the URL of the web page from which the Pixel Tag was viewed 0cf333 .
 Pixel Tags are used to improve your Hulu experience, including to provide you with content, including advertisements, customized to your interests.
 
  Social Networking How does Hulu work with social networks such as Facebook? 
@@ -2450,7 +2450,7 @@ Please be aware that Hulu does not warn you when you have chosen to click throug
 We recommend that you familiarize yourself with the privacy policies of such websites or properties to determine how they handle any information they separately collect from you.
 
 Use of Cookies and Other Technology in Third-Party Advertising.
-Advertisers, advertising technology companies, and service providers that perform advertising-related services for us and our business partners may use cookies, web beacons, and other technologies to collect information from or about you in order to tailor advertisements, measure advertising effectiveness, and enable other enhancements 0cf333.
+Advertisers, advertising technology companies, and service providers that perform advertising-related services for us and our business partners may use cookies, web beacons, and other technologies to collect information from or about you in order to tailor advertisements, measure advertising effectiveness, and enable other enhancements 0cf333 .
 This information includes your use of the Hulu Services, websites you visited, advertisements you viewed, and your other activities online.
 The information practices of these advertisers, advertising technology companies, and service providers that perform advertising-related services are governed by their own privacy policies and are not covered by this Privacy Policy.
 
@@ -2650,7 +2650,7 @@ In addition to the information you provide us directly, we receive information a
 
 
  Other Users. Other users may provide information about you as they use our services.
-For instance, we may collect information about you from other users if they contact us about you 0cf333.
+For instance, we may collect information about you from other users if they contact us about you 0cf333 .
 
 
 
@@ -2670,7 +2670,7 @@ See below for more details:
 
 
 
-Usage Information. We collect information about your activity on our services, for instance how you use them (e.g., date and time you logged in, features you've been using, searches, clicks and pages which have been shown to you, referring webpage address, advertising that you click on) and how you interact with other users (e.g., users you connect and interact with, time and date of your exchanges, number of messages you send and receive) 0cf333.
+Usage Information. We collect information about your activity on our services, for instance how you use them (e.g., date and time you logged in, features you've been using, searches, clicks and pages which have been shown to you, referring webpage address, advertising that you click on) and how you interact with other users (e.g., users you connect and interact with, time and date of your exchanges, number of messages you send and receive) 0cf333 .
 
 
 
@@ -2683,7 +2683,7 @@ information on device sensors such as accelerometers, gyroscopes and compasses.
 
 
 
-Other information with your consent. If you give us permission, we can collect your precise geolocation (latitude and longitude) through various means, depending on the service and device you're using, including GPS, Bluetooth or Wi-Fi connections 0cf333.
+Other information with your consent. If you give us permission, we can collect your precise geolocation (latitude and longitude) through various means, depending on the service and device you're using, including GPS, Bluetooth or Wi-Fi connections 0cf333 .
 The collection of your geolocation may occur in the background even when you aren't using the services if the permission you gave us expressly permits such collection.
 If you decline permission for us to collect your geolocation, we will not collect it.
 
@@ -2694,7 +2694,7 @@ You may read our Cookie Policy for more information on why we use them (such as 
 Some web browsers (including Safari, Internet Explorer, Firefox and Chrome) have a "Do Not Track" (" DNT") feature that tells a website that a user does not want to have his or her online activity tracked.
 If a website that responds to a DNT signal receives a DNT signal, the browser can block that website from collecting certain information about the browser's user.
 Not all browsers offer a DNT option and DNT signals are not yet uniform.
-For this reason, many businesses, including OkCupid, do not currently respond to DNT signals. 5 0cf333.
+For this reason, many businesses, including OkCupid, do not currently respond to DNT signals. 5 0cf333 .
 HOW WE USE INFORMATION The main reason we use your information is to deliver and improve our services.
 Additionally, we use your info to help keep you safe and to provide you with advertising that may be of interest to you.
 Read on for a more detailed explanation of the various reasons we use your information, together with practical examples.
@@ -2765,9 +2765,9 @@ For instance, we analyze users' behavior on our services to continuously improve
 Consent: From time to time, we may ask for your consent to use your information for certain specific reasons.
 You may withdraw your consent at any time by contacting us at the address provided at the end of this Privacy Policy.
 6.
-HOW WE SHARE INFORMATION Since our goal is to help you make meaningful connections, the main sharing of users' information is, of course, with other users 0cf333.
+HOW WE SHARE INFORMATION Since our goal is to help you make meaningful connections, the main sharing of users' information is, of course, with other users 0cf333 .
 We also share some users' information with service providers and partners who assist us in operating the services, with other Match Group companies and, in some cases, legal authorities.
-Read on for more details about how your information is shared with others 0cf333.
+Read on for more details about how your information is shared with others 0cf333 .
 
 
 
@@ -2779,8 +2779,8 @@ If you choose to limit the audience for all or part of your profile or for certa
 
 With our service providers and partners. We use third parties to help us operate and improve our services.
 These third parties assist us with various tasks, including data hosting and maintenance, analytics, customer care, marketing, advertising, payment processing and security operations.
- We may also share information with partners who distribute and assist us in advertising our services 0cf333.
-For instance, we may share limited information on you in hashed, non-human readable form to advertising partners 0cf333.
+ We may also share information with partners who distribute and assist us in advertising our services 0cf333 .
+For instance, we may share limited information on you in hashed, non-human readable form to advertising partners 0cf333 .
 We follow a strict vetting process prior to engaging any service provider or working with any partner.
 All of our service providers and partners must agree to strict confidentiality obligations.
 
@@ -2795,9 +2795,9 @@ In order to improve your chances at building significant connections with others
 We will of course comply with applicable law and, where relevant, notify you of any such opportunity and allow you to agree or to refuse.
 Examples of such opportunities may include the creation of a new service within Match Group, addressing a specific demographic that we feel would be interesting to you based on your search criteria.
 
-We may also share information with other Match Group companies for legitimate business purposes such as corporate audit, analysis and consolidated reporting as well as compliance with applicable laws 0cf333.
+We may also share information with other Match Group companies for legitimate business purposes such as corporate audit, analysis and consolidated reporting as well as compliance with applicable laws 0cf333 .
 We may also share user information with other Match Group companies to remove users who violate our terms of service, or have been reported for criminal activity and/or bad behavior.
-In some instances, we may remove that user from all platforms 0cf333.
+In some instances, we may remove that user from all platforms 0cf333 .
 
 
 
@@ -2821,13 +2821,13 @@ and (iv) to investigate, prevent, or take other action regarding illegal activit
 With your consent or at your request. We may ask for your consent to share your information with third parties.
 In any such case, we will make it clear why we want to share the information.
 We may use and share non-personal information (meaning information that, by itself, does not identify who you are such as device information, general demographics, general behavioral data, geolocation in de-identified form), as well as personal information in hashed, non-human readable form, under any of the above circumstances.
-We may also share this information with other Match Group companies and third parties (notably advertisers) to develop and deliver targeted advertising on our services and on websites or applications of third parties, and to analyze and report on advertising you see 0cf333.
+We may also share this information with other Match Group companies and third parties (notably advertisers) to develop and deliver targeted advertising on our services and on websites or applications of third parties, and to analyze and report on advertising you see 0cf333 .
 We may combine this information with additional non-personal information or personal information in hashed, non-human readable form collected from other sources.
 More information on our use of cookies and similar technologies can be found in our Cookie Policy.
 
 7.
-CROSS-BORDER DATA TRANSFERS Sharing of information laid out in Section 6 sometimes involves cross-border data transfers, for instance to the United States of America and other jurisdictions 0cf333.
-As an example, where the service allows for users to be located in the European Economic Area ("EEA"), their personal information is transferred to countries outside of the EEA 0cf333.
+CROSS-BORDER DATA TRANSFERS Sharing of information laid out in Section 6 sometimes involves cross-border data transfers, for instance to the United States of America and other jurisdictions 0cf333 .
+As an example, where the service allows for users to be located in the European Economic Area ("EEA"), their personal information is transferred to countries outside of the EEA 0cf333 .
 We use standard contract clauses approved by the European Commission or other suitable safeguard to permit data transfers from the EEA to other countries.
 Standard contractual clauses are commitments between companies transferring personal data, binding them to protect the privacy and security of your data. 8.
 YOUR RIGHTS We want you to be in control of your information, so we have provided you with the following tools:
@@ -2891,7 +2891,7 @@ Keep in mind that even though our systems are designed to carry out data deletio
 CHILDREN'S PRIVACY Our services are restricted to users who are 18 years of age or older.
 We do not permit users under the age of 18 on our platform and we do not knowingly collect personal information from anyone under the age of 18.
 If you suspect that a user is under the age of 18, please use the reporting mechanism available through the service. 13.
-PRIVACY POLICY CHANGES Because we're always looking for new and innovative ways to help you build meaningful connections, this policy may change over time 0cf333.
+PRIVACY POLICY CHANGES Because we're always looking for new and innovative ways to help you build meaningful connections, this policy may change over time 0cf333 .
 We will notify you before any material changes take effect so that you have time to review the changes. 14.
 HOW TO CONTACT US If you have questions about this Privacy Policy, here's how you can reach us:
 

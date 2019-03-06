@@ -1,5 +1,6 @@
 import nltk
 import string
+#import unicodecsv as csv
 import csv
 import io
 import re
@@ -13,7 +14,7 @@ stop_words = set(stopwords.words('english'))
 
 #contracts = ["asdaContract.txt", "lycaContract.txt", "eeContract.txt", "giffgaff.txt"]
 #contracts = ["asdaContract.txt"]
-contracts = ["8Contracts2.txt"]
+contracts = ["12Contracts.txt"]
 
 risky_sentences = []
 safe_sentences = []
@@ -27,6 +28,7 @@ def classifySentences():
         f = open(contracts[n], encoding="utf-8")
         raw = f.read()
 
+        raw = raw.replace('.\n', '. ')
         raw = raw.replace('\n', '. ')
 
         sent_tokenize_list = sent_tokenize(raw)
@@ -86,7 +88,8 @@ def processWords(input_data, headers=False):
 
     #Removes stop words
     for unique_words_elem in unique_words:
-        if unique_words_elem.lower() not in stopwords.words('english'):
+        stopwords_excempt = ["don't", "not", "do", "against", "how", "no"]
+        if unique_words_elem.lower() not in stopwords.words('english') or unique_words_elem.lower() in stopwords_excempt:
             filter_stop_list.append(unique_words_elem.lower())
 
     #Exclude words
@@ -119,7 +122,7 @@ def processWords(input_data, headers=False):
 
 #Puts list in a csv file as an excl generated file
 
-with open('Dataset.csv', 'w', newline='') as myfile:
+with open('Dataset12Contracts.csv', 'w', newline='') as myfile:
     print("Creating Dataset...")
     classifySentences()
 
@@ -172,6 +175,6 @@ with open('Dataset.csv', 'w', newline='') as myfile:
     
 
 
-    wr.writerow(attributes_dict.values())
+    #wr.writerow(attributes_dict.values())
 
     print("Dataset successfully created and saved.")

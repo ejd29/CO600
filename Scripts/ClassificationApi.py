@@ -19,7 +19,7 @@ CORS(app)
 
 snowball_stemmer = SnowballStemmer('english')
 
-dataset = pd.read_csv('Dataset.csv', ',', encoding='utf-8')
+dataset = pd.read_csv('Dataset12Contracts.csv', ',', encoding='utf-8')
 dataset_columns = len(dataset.columns)
 dataset_attributes_X = dataset.columns.values[0:dataset_columns-1].tolist()
 dataset_attribute_Y = dataset.columns.values[dataset_columns-1:dataset_columns].tolist()
