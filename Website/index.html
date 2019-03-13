@@ -1,148 +1,160 @@
 <!DOCTYPE HTML>
 
 <html>
-	<head>
-		<title>Terms and Conditions Analyser</title>
-		<meta charset="utf-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
-		<link rel="stylesheet" href="assets/css/main.css" />
-		<link rel="stylesheet" href="assets/js/theme/jquery-ui.min.css">
-		<link rel="stylesheet" href="assets/js/jquery.highlighttextarea.min.css">
-	</head>
-	<body class="is-preload">
+<head>
+	<title>Terms and Conditions Analyser</title>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<link rel="stylesheet" href="assets/css/main.css" />
+	<link rel="stylesheet" href="assets/css/modal.css" />
+	<link rel="stylesheet" href="assets/js/theme/jquery-ui.min.css">
 
-		<!-- Nav -->
-			<nav id="nav">
-				<ul class="container">
-					<li><a href="#top">Top</a></li>
-					<li><a href="#about">About</a></li>
-					<li><a href="#analyse">Analyse</a></li>
+</head>
+<body class="is-preload">
+
+
+	<!-- Nav -->
+	<nav id="nav">
+		<ul class="container">
+			<li><a href="#top">Top</a></li>
+			<li><a href="#about">About</a></li>
+			<li><a href="#analyse">Analyse</a></li>
+		</ul>
+	</nav>
+
+	<!-- Top -->
+	<article id="top" class="wrapper style1">
+		<div class="container">
+			<div class="row">
+				<div class="col-4 col-5-large col-12-medium">
+					<span class="image fit"><img src="images/logo.jpg" alt="" /></span>
+				</div>
+				<div class="col-8 col-7-large col-12-medium">
+					<header>
+						<h1>Terms and Conditions Analyser</h1>
+					</header>
+					<p>This program analyses the Terms and Conditions you are reading and it will only show you the statements/sentences that you need to see.</p>
+					<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
+				</div>
+			</div>
+		</div>
+	</article>
+
+	<!-- About -->
+	<article id="about" class="wrapper style2">
+		<div class="container">
+			<header>
+				<h2>What does it do?</h2>
+				<p>We have developed a neural network system to work out the Ts and Cs.</p>
+			</header>
+			<div class="row aln-center">
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<span class="icon featured fa-database"></span>
+						<h3>Neural Network</h3>
+						<p>Our neural network that we developed will attempt to analyse statements in legal contracts. </p>
+					</section>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<span class="icon featured fa-search"></span>
+						<h3>Anaylse Text</h3>
+						<p>Upon analysing each statement, the algorithms used will determine the 'risk' of that statement</p>
+					</section>
+				</div>
+				<div class="col-4 col-6-medium col-12-small">
+					<section class="box style1">
+						<span class="icon featured fa-crosshairs"></span>
+						<h3>Results!</h3>
+						<p>After full analysis of the contract, the 'risky' statements in the contract will be highlighted.</p>
+					</section>
+				</div>
+			</div>
+			<footer>
+				<p>How cool is that!?</p>
+				<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
+			</footer>
+		</div>
+	</article>
+
+	<!-- Results content -->
+	<div id="myModal" class="modal">
+		<div class="modal-content">
+			<span class="close">&times;</span>
+			<h2>Risky Sentences Found:</h2>
+			<p id="results" class="textAreaColour"></p>
+		</div>
+	</div>
+
+	<!-- Analyser -->
+	<article id="analyse" class="wrapper style4">
+		<div class="container medium">
+			<header>
+				<h2>Check for risky sentences/statements</h2>
+				<p>Paste a copy of a Terms and Conditions text below and start analysing!</p>
+			</header>
+			<div class="row">
+				<div class="col-12">
+					<form action="">
+						<div class="row">
+							<div class="col-12">
+								<textarea id="termsandconditions" placeholder="Terms and Conditions"></textarea>
+							</div>
+							<div class="col-12">
+								<ul class="actions">
+									<li><input id="analyseB" type="button" value="Analyse" /></li>
+									<li><input type="reset" value="Clear Text" class="alt" /></li>
+								</ul>
+							</div>
+						</div>
+					</form>
+				</div>
+			</div>
+			<footer>
+				<ul id="copyright">
+					<li>&copy; Terms and Conditions Analyser. All rights reserved.</li>
 				</ul>
-			</nav>
+			</footer>
+		</div>
+	</article>
 
-		<!-- Top -->
-			<article id="top" class="wrapper style1">
-				<div class="container">
-					<div class="row">
-						<div class="col-4 col-5-large col-12-medium">
-							<span class="image fit"><img src="images/logo.jpg" alt="" /></span>
-						</div>
-						<div class="col-8 col-7-large col-12-medium">
-							<header>
-								<h1>Terms and Conditions Analyser</h1>
-							</header>
-							<p>This program analyses the Terms and Conditions you are reading and it will only show you the statements/sentences that you need to see.</p>
-							<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
-						</div>
-					</div>
-				</div>
-			</article>
+	<!-- Scripts -->
+	<script src="assets/js/jquery.min.js"></script>
+	<script src="assets/js/jquery.scrolly.min.js"></script>
+	<script src="assets/js/browser.min.js"></script>
+	<script src="assets/js/breakpoints.min.js"></script>
+	<script src="assets/js/util.js"></script>
+	<script src="assets/js/main.js"></script>
+	<script src="assets/js/modaljs.js"></script>
+	<script src="assets/js/jquery-ui.min.js"></script>
 
-		<!-- About -->
-			<article id="about" class="wrapper style2">
-				<div class="container">
-					<header>
-						<h2>What does it do?</h2>
-						<p>We have developed a neural network system to work out the Ts and Cs.</p>
-					</header>
-					<div class="row aln-center">
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-database"></span>
-								<h3>Neural Network</h3>
-								<p>Our neural network that we developed will attempt to analyse statements in legal contracts. </p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-search"></span>
-								<h3>Analyse Text</h3>
-								<p>Upon analysing each statement, the algorithms used will determine the 'risk' of that statement</p>
-							</section>
-						</div>
-						<div class="col-4 col-6-medium col-12-small">
-							<section class="box style1">
-								<span class="icon featured fa-crosshairs"></span>
-								<h3>Results!</h3>
-								<p>After full analysis of the contract, the 'risky' statements in the contract will be highlighted.</p>
-							</section>
-						</div>
-					</div>
-					<footer>
-						<p>How cool is that!?</p>
-						<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Analyser -->
-			<article id="analyse" class="wrapper style4">
-				<div class="container medium">
-					<header>
-						<h2>Check for risky sentences/statements</h2>
-						<p>Paste a copy of a Terms and Conditions text below and start analysing!</p>
-					</header>
-					<div class="row">
-						<div class="col-12">
-							<form action="">
-								<div class="row">
-									<div class="col-12">
-										<textarea id="termsandconditions" placeholder="Terms and Conditions"></textarea>
-									</div>
-									<div class="col-12">
-										<ul class="actions">
-											<li><input id="analyseB" type="button" value="Analyse" /></li>
-											<li><input type="reset" value="Clear Text" class="alt" /></li>
-										</ul>
-									</div>
-								</div>
-							</form>
-						</div>
-					</div>
-					<footer>
-						<ul id="copyright">
-							<li>&copy; Terms and Conditions Analyser. All rights reserved.</li>
-						</ul>
-					</footer>
-				</div>
-			</article>
-
-		<!-- Scripts -->
-			<script src="assets/js/jquery.min.js"></script>
-			<script src="assets/js/jquery.scrolly.min.js"></script>
-			<script src="assets/js/browser.min.js"></script>
-			<script src="assets/js/breakpoints.min.js"></script>
-			<script src="assets/js/util.js"></script>
-			<script src="assets/js/main.js"></script>
-
-			<script src="assets/js/jquery-ui.min.js"></script>
-			<script src="assets/js/jquery.highlighttextarea.js"></script>
-
-			<script>
-			$(document).ready(function(){
-			  $("#analyseB").click(function(){
-			    var tccontract = $("#termsandconditions").val();
-			    $.ajax({
-			      type: 'POST',
-			      url: 'http://localhost:5000/ModelTest',
-			      data: tccontract,
-						cors: true,
-			      dataType: 'json',
-			      contentType: 'application/json',
-						secure: true,
-						headers: {
-							'Access-Control-Allow-Origin':'*',
-						},
-			      success: function(result){
-			        $("#termsandconditions").highlightTextarea({
-			          color: '#ADF0FF',
-			          words: result.rs
-			        });
-			      }
-			    });
-			  });
+	<script>
+	$(document).ready(function(){
+		$("#analyseB").click(function(){
+			$("#results").empty();
+			var tccontract = $("#termsandconditions").val();
+			var tcjson = {document : tccontract};
+			var tcData = JSON.stringify(tcjson);
+			$.ajax({
+				type: 'POST',
+				url: 'http://localhost:5000/ModelTest',
+				data: tcData,
+				cors: true,
+				dataType: 'json',
+				contentType: 'application/json',
+				secure: true,
+				headers: {
+					'Access-Control-Allow-Origin':'*',
+				},
+				success: function(data){
+					$.each(data.rs, function(i, result){
+						$("#results").append("<li>" + result + "</li>");
+					})
+				}
 			});
-		 </script>
+		});
+	});
+	</script>
 
-	</body>
+</body>
 </html>

@@ -65,7 +65,7 @@ def ModelTest():
         risky_statements = []
         req_data = request.get_json()
 
-        document = req_data['document'].replace('\n', '. ')
+        document = req_data['document'].replace('\n', ' ')
         sent_tokenize_list = sent_tokenize(document)
 
         for sentence in sent_tokenize_list:
