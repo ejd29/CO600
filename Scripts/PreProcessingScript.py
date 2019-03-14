@@ -15,6 +15,7 @@ stop_words = set(stopwords.words('english'))
 #contracts = ["asdaContract.txt", "lycaContract.txt", "eeContract.txt", "giffgaff.txt"]
 #contracts = ["asdaContract.txt"]
 contracts = ["12Contracts.txt"]
+punctuation = '!"#$%&\'()*+,-./:;<=>@[\\]^_`{|}~'
 
 risky_sentences = []
 safe_sentences = []
@@ -36,6 +37,7 @@ def classifySentences():
         for x in range(len(sent_tokenize_list)):
             is_risky = False
             words = word_tokenize(sent_tokenize_list[x])
+           
             current_sentence_attributes_present = []
 
             for y in range(len(words)):
@@ -81,7 +83,7 @@ def processWords(input_data, headers=False):
     #Removes punctuation
     for input_data_elem in input_data_array:
         try:
-            nopunc = input_data_elem.translate(str.maketrans('','',string.punctuation))
+            nopunc = input_data_elem.translate(str.maketrans('','', punctuation))
             unique_words.append(nopunc)
         except:
             print("couldn't remove punctuation")

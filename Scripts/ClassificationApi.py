@@ -7,10 +7,12 @@ import pandas as pd
 from sklearn.ensemble import RandomForestClassifier
 from sklearn.model_selection import train_test_split
 from sklearn.metrics import recall_score
+from sklearn.metrics import precision_score
 from imblearn.over_sampling import SMOTE
 from nltk.tokenize import sent_tokenize, word_tokenize
 from nltk.stem import SnowballStemmer
 from sklearn.neural_network import MLPClassifier
+from sklearn import svm
 import sys
 
 app = flask.Flask(__name__)
@@ -34,8 +36,13 @@ sm = SMOTE(random_state=12, ratio = 1.0)
 x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 
 clf = RandomForestClassifier(n_estimators=25, random_state=12)
-clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(30,), random_state=12)
+clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(33,2), random_state=12)
+#clf = svm.SVC(gamma='scale')
 clf.fit(x_train_res, y_train_res)
+
+print(clf.score(X_test, y_test))
+print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
+print(precision_score(y_test, clf.predict(X_test), average='binary', pos_label="Yes"))
 
 #testVar = "I shouldn't be this value"
 
@@ -82,10 +89,12 @@ def ModelTest():
                         beginning_of_sentence = document.find(sentence)
                         length_of_sentence = len(sentence)
                         end_of_sentence = beginning_of_sentence + length_of_sentence
-                        risky_statement_locations.append(beginning_of_sentence)
-                        risky_statement_locations.append(end_of_sentence)
+                        risky_statement_location_pair = [beginning_of_sentence, end_of_sentence]
+                        if risky_statement_location_pair not in risky_statement_locations:
+                                risky_statement_locations.append(risky_statement_location_pair)
                         risky_statements.append(sentence)
 
+        #risky_statements = removeArrayPairDuplicates(risky_statements)
 
         return jsonify(rsl=risky_statement_locations, rs=risky_statements)
 
