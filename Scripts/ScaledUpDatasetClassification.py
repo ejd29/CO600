@@ -30,11 +30,13 @@ x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
 
 clf = RandomForestClassifier(n_estimators=25, random_state=12)
 #clf = GaussianNB()
+clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(33,2), random_state=12)
 clf.fit(x_train_res, y_train_res)
 print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
 print(precision_score(y_test, clf.predict(X_test), average='binary', pos_label="Yes"))
 print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="No"))
 print(precision_score(y_test, clf.predict(X_test), average='binary', pos_label="No"))
+print(clf.score(X_test, y_test))
 #clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(22,), random_state=12)
 '''for n in range(2,3):
     for i in range(33,34): 
