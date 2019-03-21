@@ -1,0 +1,3229 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.bayes.NaiveBayes 
+Relation:     Dataset12Contracts
+Instances:    4284
+Attributes:   531
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+Naive Bayes Classifier
+
+                  Class
+Attribute           Yes     No
+                 (0.07) (0.93)
+===============================
+﻿?
+  mean            0.0033 0.0211
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+abil
+  mean            0.0065 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+abl
+  mean                 0 0.0065
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+abus
+  mean            0.0033 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+accept
+  mean            0.0065  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+access
+  mean            0.0749 0.0339
+  std. dev.       0.2633 0.1811
+  weight sum         307   3977
+  precision            1      1
+
+accommod
+  mean            0.0098 0.0053
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+accord
+  mean            0.0195 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+account
+  mean            0.1075 0.0435
+  std. dev.       0.3097  0.204
+  weight sum         307   3977
+  precision            1      1
+
+acknowledg
+  mean            0.0098  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+across
+  mean            0.0163 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+action
+  mean            0.0163 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+activ
+  mean             0.101 0.0259
+  std. dev.       0.3013 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ad
+  mean            0.0684 0.0189
+  std. dev.       0.2524 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+add
+  mean            0.0098  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+addit
+  mean            0.0261 0.0156
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+addon
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+address
+  mean            0.1564 0.0186
+  std. dev.       0.3632 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+adequ
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+adjust
+  mean            0.0033 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+administr
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+advantag
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+advertis
+  mean            0.1759  0.041
+  std. dev.       0.3807 0.1983
+  weight sum         307   3977
+  precision            1      1
+
+advertisingrel
+  mean             0.013 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+affili
+  mean            0.0261 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+against
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+aggreg
+  mean            0.0033 0.0091
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+agre
+  mean            0.0195 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+agreement
+  mean            0.0065 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+allow
+  mean            0.0423 0.0141
+  std. dev.       0.2014 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+along
+  mean            0.0065  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+alreadi
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+alter
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+alway
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+amazoncom
+  mean            0.0065 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+amend
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+america
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+among
+  mean            0.0098 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+amp
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+analysi
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+analyt
+  mean            0.0195 0.0063
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+analyz
+  mean            0.0163 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+android
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+anonym
+  mean            0.0033 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+anoth
+  mean             0.013 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+anyon
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+app
+  mean            0.0619 0.0103
+  std. dev.        0.241 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+appear
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+appli
+  mean            0.0195 0.0123
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+applic
+  mean            0.0651 0.0272
+  std. dev.       0.2468 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+appropri
+  mean            0.0065 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ask
+  mean            0.0065 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+assign
+  mean            0.0065 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+associ
+  mean            0.0228 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+authent
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+author
+  mean            0.0033 0.0053
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+autom
+  mean            0.0065 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+automat
+  mean            0.0098 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+avail
+  mean            0.0163 0.0121
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+avenu
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+awar
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+base
+  mean            0.0521 0.0068
+  std. dev.       0.2223 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+beacon
+  mean            0.0489 0.0068
+  std. dev.       0.2156 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+becom
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+behalf
+  mean            0.0456 0.0035
+  std. dev.       0.2086 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+behavior
+  mean            0.0163 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+believ
+  mean            0.0033 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+bill
+  mean            0.0228 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+birth
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+block
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+book
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+bookingcom
+  mean            0.0163 0.0116
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+brows
+  mean            0.0228 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+build
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+busi
+  mean            0.0586 0.0143
+  std. dev.       0.2349 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+button
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+buy
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+california
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+call
+  mean            0.0033 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+campaign
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+case
+  mean            0.0033  0.005
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+center
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+chang
+  mean            0.0228 0.0138
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+check
+  mean            0.0098 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+children
+  mean                 0 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+choic
+  mean            0.0065 0.0108
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+choos
+  mean            0.0326 0.0085
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+chrome
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+circumst
+  mean            0.0098 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+citi
+  mean            0.0098  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+claim
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+clear
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+click
+  mean            0.0326 0.0128
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+cobrand
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+code
+  mean            0.0098 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+collect
+  mean            0.2313 0.0666
+  std. dev.       0.4216 0.2494
+  weight sum         307   3977
+  precision            1      1
+
+combin
+  mean            0.0033 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+comment
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+commerc
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+commit
+  mean                 0  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+communic
+  mean            0.0391 0.0153
+  std. dev.       0.1938 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+communiti
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+compani
+  mean            0.0782 0.0209
+  std. dev.       0.2684 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+complaint
+  mean            0.0033 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+complet
+  mean            0.0065 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+compli
+  mean            0.0098  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+complianc
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+comput
+  mean            0.0293 0.0073
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+concern
+  mean            0.0033  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+condit
+  mean            0.0065 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+confidenti
+  mean            0.0065 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+configur
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+connect
+  mean            0.0326 0.0148
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+consent
+  mean            0.0261 0.0191
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+consid
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+consist
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+consum
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+contact
+  mean            0.0391 0.0312
+  std. dev.       0.1938 0.1738
+  weight sum         307   3977
+  precision            1      1
+
+contain
+  mean            0.0065 0.0053
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+contest
+  mean            0.0065 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+continu
+  mean                 0 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+contract
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+control
+  mean            0.0065 0.0168
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+cooki
+  mean            0.1173 0.0538
+  std. dev.       0.3217 0.2256
+  weight sum         307   3977
+  precision            1      1
+
+copi
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+corpor
+  mean             0.013 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+could
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+countri
+  mean            0.0358 0.0033
+  std. dev.       0.1859 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+cours
+  mean            0.0065  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+court
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+cover
+  mean            0.0033  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+creat
+  mean             0.013 0.0085
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+current
+  mean             0.013  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+custom
+  mean            0.0717 0.0194
+  std. dev.       0.2579 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+daddi
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+data
+  mean            0.2443 0.0649
+  std. dev.       0.4297 0.2463
+  weight sum         307   3977
+  precision            1      1
+
+databas
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+date
+  mean            0.0261  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+day
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+delet
+  mean            0.0098 0.0166
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+deliv
+  mean            0.0098 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+demograph
+  mean             0.013  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+depart
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+depend
+  mean            0.0163 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+describ
+  mean            0.0195 0.0121
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+design
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+detail
+  mean            0.0195 0.0098
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+detect
+  mean            0.0098 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+determin
+  mean            0.0228 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+develop
+  mean                 0 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+devic
+  mean            0.1531 0.0224
+  std. dev.       0.3601 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+differ
+  mean             0.013 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+direct
+  mean            0.0163 0.0113
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+disabl
+  mean            0.0033 0.0063
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+disclos
+  mean            0.0423  0.008
+  std. dev.       0.2014 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+disclosur
+  mean            0.0033 0.0096
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+discuss
+  mean            0.0098 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+display
+  mean            0.0358 0.0068
+  std. dev.       0.1859 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+disput
+  mean            0.0065 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+do
+  mean            0.0326 0.0297
+  std. dev.       0.1775 0.1697
+  weight sum         307   3977
+  precision            1      1
+
+done
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+download
+  mean            0.0163  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+easili
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+edit
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+effect
+  mean            0.0163 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+either
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+elsewher
+  mean            0.0065 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+email
+  mean            0.0814 0.0347
+  std. dev.       0.2735  0.183
+  weight sum         307   3977
+  precision            1      1
+
+enabl
+  mean            0.0195 0.0108
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+encourag
+  mean            0.0033 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+encrypt
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+enforc
+  mean                 0 0.0096
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+engag
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+enhanc
+  mean            0.0098 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ensur
+  mean            0.0033  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+enter
+  mean            0.0098 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+entiti
+  mean            0.0098 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+eu
+  mean            0.0033  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+european
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+even
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+event
+  mean            0.0228 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+exampl
+  mean            0.0391 0.0327
+  std. dev.       0.1938 0.1778
+  weight sum         307   3977
+  precision            1      1
+
+exercis
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+explicit
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+extent
+  mean            0.0228 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+facilit
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+famili
+  mean             0.013 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+featur
+  mean            0.0326 0.0156
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+file
+  mean            0.0033 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+financi
+  mean            0.0065 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+floor
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+follow
+  mean            0.0163 0.0128
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+form
+  mean            0.0163 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+forth
+  mean            0.0065 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+forward
+  mean             0.013 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+fraud
+  mean            0.0163  0.008
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+fraudul
+  mean            0.0065 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+free
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+friend
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+function
+  mean            0.0098 0.0065
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+futur
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+game
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+gather
+  mean            0.0098 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+gender
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+github
+  mean                 0  0.005
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+give
+  mean            0.0228 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+given
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+global
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+gmail
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+go
+  mean            0.0065 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+govern
+  mean            0.0033 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+government
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+held
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+help
+  mean            0.0293 0.0206
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+home
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+how
+  mean            0.0423 0.0402
+  std. dev.       0.2014 0.1965
+  weight sum         307   3977
+  precision            1      1
+
+howev
+  mean            0.0228 0.0065
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+https
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+hulu
+  mean            0.0684 0.0244
+  std. dev.       0.2524 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+hulucom
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+id
+  mean            0.0195 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ident
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+identifi
+  mean            0.0912 0.0148
+  std. dev.       0.2879 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+illeg
+  mean            0.0065 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+import
+  mean                 0 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+improv
+  mean            0.0293 0.0128
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+inc
+  mean            0.0293 0.0075
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+includ
+  mean            0.2215 0.0458
+  std. dev.       0.4153  0.209
+  weight sum         307   3977
+  precision            1      1
+
+indeedcom
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+indic
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+individu
+  mean            0.0065 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+inform
+  mean            0.5896 0.1996
+  std. dev.       0.4919 0.3997
+  weight sum         307   3977
+  precision            1      1
+
+initi
+  mean            0.0098  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+instal
+  mean            0.0228 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+instanc
+  mean            0.0098 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+instruct
+  mean            0.0033  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+integr
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+intend
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+interact
+  mean            0.0293 0.0101
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+interest
+  mean            0.0651 0.0113
+  std. dev.       0.2468 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+intern
+  mean            0.0098 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+internet
+  mean            0.0261  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+investig
+  mean            0.0098 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+invit
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+involv
+  mean            0.0195  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ip
+  mean            0.0847  0.002
+  std. dev.       0.2784 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ireland
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+issu
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+item
+  mean             0.013  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+keep
+  mean            0.0098 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+know
+  mean            0.0033  0.005
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+known
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+languag
+  mean            0.0163 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+last
+  mean            0.0033  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+later
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+law
+  mean             0.013 0.0189
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+learn
+  mean            0.0065 0.0151
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+legal
+  mean            0.0065 0.0108
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+legitim
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+like
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+limit
+  mean            0.0326 0.0116
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+link
+  mean            0.0326 0.0123
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+list
+  mean            0.0163 0.0121
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+llc
+  mean            0.0033 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+local
+  mean            0.0065 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+locat
+  mean            0.0879 0.0116
+  std. dev.       0.2832 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+log
+  mean             0.013 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+long
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+longer
+  mean            0.0033 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+loss
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+ltd
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+made
+  mean                 0 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+mail
+  mean            0.0065 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+maintain
+  mean            0.0098 0.0053
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+make
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+manag
+  mean            0.0033 0.0121
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+mani
+  mean            0.0065 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+manner
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+manufactur
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+market
+  mean            0.0391 0.0123
+  std. dev.       0.1938 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+marketplac
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+materi
+  mean            0.0163 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+mean
+  mean            0.0195 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+measur
+  mean            0.0261 0.0065
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+media
+  mean            0.0228 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+meet
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+member
+  mean             0.013 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+menu
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+messag
+  mean            0.0195 0.0118
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+method
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+might
+  mean            0.0228 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+miniclipcom
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+misus
+  mean            0.0098 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+mitig
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+mobil
+  mean            0.0782 0.0121
+  std. dev.       0.2684 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+modifi
+  mean            0.0065 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+much
+  mean            0.0098 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+must
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+nai
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+name
+  mean            0.0847 0.0108
+  std. dev.       0.2784 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+nation
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+need
+  mean             0.013  0.008
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+network
+  mean            0.0456 0.0108
+  std. dev.       0.2086 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+new
+  mean                 0  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+newslett
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+no
+  mean             0.013 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+nonperson
+  mean            0.0065 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+note
+  mean            0.0195 0.0116
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+notic
+  mean            0.0098 0.0171
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+notifi
+  mean                 0  0.005
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+obtain
+  mean            0.0163  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+offer
+  mean            0.0521 0.0146
+  std. dev.       0.2223 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+offic
+  mean                 0 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+offlin
+  mean            0.0065  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+often
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+onlin
+  mean            0.0358 0.0176
+  std. dev.       0.1859 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+open
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+oper
+  mean            0.0586 0.0116
+  std. dev.       0.2349 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+opportun
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+opt
+  mean                 0 0.0106
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+optim
+  mean            0.0098 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+option
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+optout
+  mean            0.0065  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+order
+  mean            0.0586 0.0168
+  std. dev.       0.2349 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+other
+  mean            0.0033 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+otherwis
+  mean            0.0261 0.0085
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+outsid
+  mean            0.0098 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+part
+  mean            0.0293 0.0063
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+parti
+  mean            0.1629 0.0294
+  std. dev.       0.3692  0.169
+  weight sum         307   3977
+  precision            1      1
+
+particip
+  mean            0.0163 0.0063
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+particular
+  mean            0.0195  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+partner
+  mean            0.0749 0.0158
+  std. dev.       0.2633 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+password
+  mean            0.0098 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+pattern
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+payment
+  mean             0.013 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+paypal
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+peopl
+  mean            0.0098 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+perform
+  mean            0.0358 0.0123
+  std. dev.       0.1859 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+permiss
+  mean            0.0065 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+person
+  mean            0.2704 0.0719
+  std. dev.       0.4441 0.2583
+  weight sum         307   3977
+  precision            1      1
+
+physic
+  mean            0.0033  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+pixel
+  mean            0.0098 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+place
+  mean            0.0228  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+play
+  mean            0.0033 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+pleas
+  mean            0.0326 0.0372
+  std. dev.       0.1775 0.1893
+  weight sum         307   3977
+  precision            1      1
+
+point
+  mean             0.013  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+polici
+  mean            0.0814 0.0515
+  std. dev.       0.2735 0.2211
+  weight sum         307   3977
+  precision            1      1
+
+possibl
+  mean            0.0098 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+post
+  mean            0.0163 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+postal
+  mean            0.0098 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+potenti
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+prefer
+  mean            0.0391 0.0121
+  std. dev.       0.1938 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+prevent
+  mean            0.0228 0.0101
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+previous
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+price
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+prior
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+privaci
+  mean            0.0945  0.083
+  std. dev.       0.2925 0.2758
+  weight sum         307   3977
+  precision            1      1
+
+privacydept
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+privat
+  mean            0.0033 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+problem
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+procedur
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+process
+  mean            0.0554 0.0241
+  std. dev.       0.2287 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+product
+  mean            0.0489 0.0221
+  std. dev.       0.2156 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+profil
+  mean            0.0195 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+program
+  mean            0.0098 0.0093
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+promot
+  mean            0.0326 0.0078
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+properti
+  mean                 0 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+protect
+  mean            0.0098 0.0262
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+provid
+  mean            0.2704 0.0661
+  std. dev.       0.4441 0.2485
+  weight sum         307   3977
+  precision            1      1
+
+provis
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+public
+  mean            0.0163 0.0128
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+purchas
+  mean             0.013 0.0075
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+purpos
+  mean            0.0554 0.0264
+  std. dev.       0.2287 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+pursuant
+  mean            0.0163 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+qualiti
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+queri
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+question
+  mean            0.0065 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+rang
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+reach
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+read
+  mean            0.0065 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+reason
+  mean            0.0098 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+receiv
+  mean            0.0489 0.0216
+  std. dev.       0.2156 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+recogn
+  mean            0.0033 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+recognit
+  mean            0.0033 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+recommend
+  mean            0.0195 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+record
+  mean            0.0065  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+refer
+  mean            0.0065 0.0063
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+regard
+  mean            0.0195 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+regardless
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+regist
+  mean            0.0195  0.005
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+relat
+  mean            0.0228 0.0106
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+relationship
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+relay
+  mean                 0 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+relev
+  mean            0.0261 0.0096
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+remain
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+rememb
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+remov
+  mean            0.0065 0.0065
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+report
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+request
+  mean            0.0456 0.0241
+  std. dev.       0.2086 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+requir
+  mean            0.0065 0.0131
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+research
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+reserv
+  mean            0.0195  0.008
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+resid
+  mean                 0 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+resolut
+  mean            0.0065 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+respect
+  mean            0.0033 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+respond
+  mean            0.0098  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+respons
+  mean            0.0098 0.0088
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+result
+  mean            0.0391 0.0058
+  std. dev.       0.1938 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+resum
+  mean            0.0326  0.007
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+retain
+  mean             0.013  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+retent
+  mean            0.0033 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+return
+  mean                 0 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+review
+  mean            0.0033 0.0131
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+right
+  mean            0.0065 0.0151
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+run
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+safeguard
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+safeti
+  mean                 0 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+samsung
+  mean            0.0163 0.0101
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+save
+  mean            0.0033  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+scope
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+screen
+  mean            0.0033 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+search
+  mean            0.0293 0.0173
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+section
+  mean            0.0163 0.0096
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+secur
+  mean             0.013 0.0219
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+seeker
+  mean             0.013 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sell
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+seller
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+send
+  mean            0.0684 0.0186
+  std. dev.       0.2524 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sensit
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sent
+  mean            0.0033 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+serv
+  mean            0.0163 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+server
+  mean            0.0261 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+servic
+  mean             0.355 0.1139
+  std. dev.       0.4785 0.3177
+  weight sum         307   3977
+  precision            1      1
+
+session
+  mean            0.0065  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+set
+  mean            0.0619 0.0277
+  std. dev.        0.241 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+share
+  mean            0.1694 0.0309
+  std. dev.       0.3751 0.1731
+  weight sum         307   3977
+  precision            1      1
+
+ship
+  mean            0.0065  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+show
+  mean            0.0228 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+shown
+  mean            0.0065  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sign
+  mean             0.013 0.0106
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+signal
+  mean            0.0195 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+similar
+  mean            0.0261  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+site
+  mean            0.1401 0.0546
+  std. dev.       0.3471 0.2271
+  weight sum         307   3977
+  precision            1      1
+
+small
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+smarttv
+  mean            0.0098 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+social
+  mean            0.0586 0.0136
+  std. dev.       0.2349 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+softwar
+  mean             0.013 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+someon
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sometim
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+sourc
+  mean            0.0065 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+space
+  mean            0.0033  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+spam
+  mean            0.0033 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+special
+  mean            0.0065  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+specif
+  mean            0.0163 0.0101
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+standard
+  mean            0.0065 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+state
+  mean            0.0195 0.0078
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+statement
+  mean                 0  0.003
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+statist
+  mean            0.0065 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+stay
+  mean            0.0098 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+step
+  mean                 0 0.0045
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+still
+  mean                 0  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+storag
+  mean            0.0228 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+store
+  mean            0.0293 0.0153
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+subject
+  mean            0.0033  0.007
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+submit
+  mean             0.013 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+summari
+  mean                 0 0.0033
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+support
+  mean             0.013 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+switzerland
+  mean            0.0033 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+system
+  mean            0.0521 0.0075
+  std. dev.       0.2223 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+tailor
+  mean             0.013 0.0008
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+take
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+target
+  mean            0.0423  0.005
+  std. dev.       0.2014 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+technic
+  mean            0.0033 0.0043
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+technolog
+  mean            0.0717 0.0146
+  std. dev.       0.2579 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+telephon
+  mean            0.0228 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+tell
+  mean            0.0065 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+term
+  mean            0.0163 0.0163
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+thing
+  mean            0.0163 0.0053
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+think
+  mean             0.013 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+thirdparti
+  mean            0.0749 0.0221
+  std. dev.       0.2633 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+time
+  mean            0.0651 0.0196
+  std. dev.       0.2468 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+tool
+  mean            0.0033  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+track
+  mean            0.0293 0.0085
+  std. dev.       0.1687 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+traffic
+  mean            0.0033 0.0013
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+transact
+  mean            0.0326 0.0043
+  std. dev.       0.1775 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+transfer
+  mean            0.0586 0.0101
+  std. dev.       0.2349 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+transmiss
+  mean                 0 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+transmit
+  mean             0.013  0.002
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+trust
+  mean             0.013 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+turn
+  mean            0.0033 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+type
+  mean            0.0749 0.0091
+  std. dev.       0.2633 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+unauthor
+  mean                 0 0.0023
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+union
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+uniqu
+  mean            0.0489 0.0035
+  std. dev.       0.2156 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+unit
+  mean            0.0098 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+unless
+  mean                 0 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+unsubscrib
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+upcom
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+updat
+  mean            0.0195 0.0166
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+url
+  mean            0.0163  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+usag
+  mean            0.0033 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+use
+  mean            0.3746 0.1436
+  std. dev.        0.484 0.3507
+  weight sum         307   3977
+  precision            1      1
+
+user
+  mean            0.0814  0.045
+  std. dev.       0.2735 0.2073
+  weight sum         307   3977
+  precision            1      1
+
+util
+  mean            0.0098 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+varieti
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+various
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+vendor
+  mean            0.0065 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+verifi
+  mean            0.0033 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+via
+  mean            0.0065 0.0058
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+video
+  mean            0.0195 0.0093
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+view
+  mean            0.0391 0.0118
+  std. dev.       0.1938 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+violat
+  mean            0.0033 0.0038
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+visit
+  mean            0.0554 0.0236
+  std. dev.       0.2287 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+visitor
+  mean             0.013 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+want
+  mean            0.0163 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+watch
+  mean            0.0065  0.004
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+way
+  mean            0.0195 0.0055
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+web
+  mean            0.0782 0.0166
+  std. dev.       0.2684 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+websit
+  mean            0.1042 0.0385
+  std. dev.       0.3056 0.1923
+  weight sum         307   3977
+  precision            1      1
+
+well
+  mean            0.0065 0.0028
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+whether
+  mean            0.0163  0.006
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+wish
+  mean                 0 0.0068
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+withdraw
+  mean            0.0033 0.0018
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+work
+  mean            0.0098 0.0073
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+world
+  mean            0.0065  0.001
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+would
+  mean            0.0033 0.0048
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+write
+  mean                 0 0.0025
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+year
+  mean            0.0098 0.0035
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+york
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+—
+  mean                 0 0.0015
+  std. dev.       0.1667 0.1667
+  weight sum         307   3977
+  precision            1      1
+
+
+
+Time taken to build model: 1.52 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 3.58 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        3399               79.3417 %
+Incorrectly Classified Instances       885               20.6583 %
+Kappa statistic                          0.2887
+Mean absolute error                      0.2108
+Root mean squared error                  0.4273
+Relative absolute error                158.2416 %
+Root relative squared error            165.6848 %
+Total Number of Instances             4284     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.840    0.210    0.236      0.840    0.368      0.373    0.904     0.457     Yes
+                 0.790    0.160    0.985      0.790    0.877      0.373    0.904     0.991     No
+Weighted Avg.    0.793    0.163    0.931      0.793    0.840      0.373    0.904     0.953     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  258   49 |    a = Yes
+  836 3141 |    b = No
+

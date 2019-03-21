@@ -1,0 +1,196 @@
+=== Run information ===
+
+Scheme:       weka.classifiers.trees.J48 -C 0.25 -M 2
+Relation:     Dataset12Contracts
+Instances:    4284
+Attributes:   531
+              [list of attributes omitted]
+Test mode:    evaluate on training data
+
+=== Classifier model (full training set) ===
+
+J48 pruned tree
+------------------
+
+ip <= 0
+|   behalf <= 0
+|   |   uniqu <= 0
+|   |   |   target <= 0
+|   |   |   |   name <= 0
+|   |   |   |   |   locat <= 0
+|   |   |   |   |   |   share <= 0
+|   |   |   |   |   |   |   type <= 0
+|   |   |   |   |   |   |   |   transfer <= 0
+|   |   |   |   |   |   |   |   |   base <= 0
+|   |   |   |   |   |   |   |   |   |   display <= 0
+|   |   |   |   |   |   |   |   |   |   |   parti <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   time <= 0: No (3568.0/87.0)
+|   |   |   |   |   |   |   |   |   |   |   |   time > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   chang <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   amend <= 0: No (57.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   amend > 0: Yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   chang > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   polici <= 0: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   polici > 0: Yes (5.0)
+|   |   |   |   |   |   |   |   |   |   |   parti > 0
+|   |   |   |   |   |   |   |   |   |   |   |   person <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   cooki <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   resum <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   user <= 0: No (57.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   user > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   how <= 0: No (5.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   |   how > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   resum > 0: Yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   cooki > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   relev <= 0: No (15.0/4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   relev > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   person > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   consent <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   legal <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inform <= 0: No (5.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   |   inform > 0: Yes (10.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   legal > 0: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   consent > 0: No (5.0)
+|   |   |   |   |   |   |   |   |   |   display > 0
+|   |   |   |   |   |   |   |   |   |   |   internet <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   data <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   person <= 0: No (17.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   person > 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   advertis <= 0: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   |   advertis > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   data > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   internet > 0: Yes (4.0)
+|   |   |   |   |   |   |   |   |   base > 0
+|   |   |   |   |   |   |   |   |   |   measur <= 0
+|   |   |   |   |   |   |   |   |   |   |   part <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   advertis <= 0: No (22.0/2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   advertis > 0: Yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   part > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   measur > 0: Yes (3.0)
+|   |   |   |   |   |   |   |   transfer > 0
+|   |   |   |   |   |   |   |   |   countri <= 0
+|   |   |   |   |   |   |   |   |   |   event <= 0
+|   |   |   |   |   |   |   |   |   |   |   servic <= 0: No (34.0/3.0)
+|   |   |   |   |   |   |   |   |   |   |   servic > 0
+|   |   |   |   |   |   |   |   |   |   |   |   data <= 0
+|   |   |   |   |   |   |   |   |   |   |   |   |   hulu <= 0: No (4.0)
+|   |   |   |   |   |   |   |   |   |   |   |   |   hulu > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   |   |   |   data > 0: Yes (3.0)
+|   |   |   |   |   |   |   |   |   |   event > 0: Yes (4.0/1.0)
+|   |   |   |   |   |   |   |   |   countri > 0: Yes (3.0)
+|   |   |   |   |   |   |   type > 0
+|   |   |   |   |   |   |   |   devic <= 0
+|   |   |   |   |   |   |   |   |   comput <= 0
+|   |   |   |   |   |   |   |   |   |   order <= 0: No (26.0/3.0)
+|   |   |   |   |   |   |   |   |   |   order > 0
+|   |   |   |   |   |   |   |   |   |   |   use <= 0: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   use > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   |   comput > 0: Yes (2.0)
+|   |   |   |   |   |   |   |   devic > 0: Yes (4.0)
+|   |   |   |   |   |   share > 0
+|   |   |   |   |   |   |   network <= 0
+|   |   |   |   |   |   |   |   data <= 0
+|   |   |   |   |   |   |   |   |   transact <= 0
+|   |   |   |   |   |   |   |   |   |   samsung <= 0: No (124.0/19.0)
+|   |   |   |   |   |   |   |   |   |   samsung > 0: Yes (3.0)
+|   |   |   |   |   |   |   |   |   transact > 0: Yes (4.0)
+|   |   |   |   |   |   |   |   data > 0
+|   |   |   |   |   |   |   |   |   servic <= 0: No (9.0/2.0)
+|   |   |   |   |   |   |   |   |   servic > 0: Yes (5.0)
+|   |   |   |   |   |   |   network > 0
+|   |   |   |   |   |   |   |   inform <= 0: No (2.0)
+|   |   |   |   |   |   |   |   inform > 0: Yes (6.0)
+|   |   |   |   |   locat > 0
+|   |   |   |   |   |   state <= 0
+|   |   |   |   |   |   |   inform <= 0
+|   |   |   |   |   |   |   |   data <= 0
+|   |   |   |   |   |   |   |   |   app <= 0: No (30.0/2.0)
+|   |   |   |   |   |   |   |   |   app > 0: Yes (3.0/1.0)
+|   |   |   |   |   |   |   |   data > 0: Yes (7.0/1.0)
+|   |   |   |   |   |   |   inform > 0: Yes (12.0/2.0)
+|   |   |   |   |   |   state > 0: No (9.0)
+|   |   |   |   name > 0
+|   |   |   |   |   polici <= 0
+|   |   |   |   |   |   telephon <= 0
+|   |   |   |   |   |   |   address <= 0
+|   |   |   |   |   |   |   |   avail <= 0: No (28.0/1.0)
+|   |   |   |   |   |   |   |   avail > 0
+|   |   |   |   |   |   |   |   |   search <= 0: Yes (3.0)
+|   |   |   |   |   |   |   |   |   search > 0: No (2.0)
+|   |   |   |   |   |   |   address > 0
+|   |   |   |   |   |   |   |   use <= 0
+|   |   |   |   |   |   |   |   |   do <= 0
+|   |   |   |   |   |   |   |   |   |   account <= 0
+|   |   |   |   |   |   |   |   |   |   |   email <= 0: No (3.0/1.0)
+|   |   |   |   |   |   |   |   |   |   |   email > 0: Yes (9.0/1.0)
+|   |   |   |   |   |   |   |   |   |   account > 0
+|   |   |   |   |   |   |   |   |   |   |   bill <= 0: No (2.0)
+|   |   |   |   |   |   |   |   |   |   |   bill > 0: Yes (3.0/1.0)
+|   |   |   |   |   |   |   |   |   do > 0: No (2.0)
+|   |   |   |   |   |   |   |   use > 0: No (4.0)
+|   |   |   |   |   |   telephon > 0: Yes (5.0/1.0)
+|   |   |   |   |   polici > 0: Yes (4.0)
+|   |   |   target > 0
+|   |   |   |   websit <= 0
+|   |   |   |   |   partner <= 0
+|   |   |   |   |   |   prefer <= 0
+|   |   |   |   |   |   |   serv <= 0: No (22.0/2.0)
+|   |   |   |   |   |   |   serv > 0: Yes (2.0)
+|   |   |   |   |   |   prefer > 0: Yes (2.0)
+|   |   |   |   |   partner > 0: Yes (3.0)
+|   |   |   |   websit > 0: Yes (4.0)
+|   |   uniqu > 0
+|   |   |   applic <= 0
+|   |   |   |   click <= 0: No (19.0/5.0)
+|   |   |   |   click > 0: Yes (2.0)
+|   |   |   applic > 0: Yes (4.0)
+|   behalf > 0
+|   |   bill <= 0
+|   |   |   hulu <= 0
+|   |   |   |   mean <= 0
+|   |   |   |   |   parti <= 0
+|   |   |   |   |   |   process <= 0: No (12.0/1.0)
+|   |   |   |   |   |   process > 0
+|   |   |   |   |   |   |   analyz <= 0: Yes (2.0)
+|   |   |   |   |   |   |   analyz > 0: No (2.0)
+|   |   |   |   |   parti > 0: Yes (5.0/1.0)
+|   |   |   |   mean > 0: Yes (2.0)
+|   |   |   hulu > 0: Yes (2.0)
+|   |   bill > 0: Yes (3.0)
+ip > 0: Yes (34.0/8.0)
+
+Number of Leaves  : 	74
+
+Size of the tree : 	147
+
+
+Time taken to build model: 56.52 seconds
+
+=== Evaluation on training set ===
+
+Time taken to test model on training data: 0.8 seconds
+
+=== Summary ===
+
+Correctly Classified Instances        4126               96.3119 %
+Incorrectly Classified Instances       158                3.6881 %
+Kappa statistic                          0.6643
+Mean absolute error                      0.0667
+Root mean squared error                  0.1826
+Relative absolute error                 50.0723 %
+Root relative squared error             70.8073 %
+Total Number of Instances             4284     
+
+=== Detailed Accuracy By Class ===
+
+                 TP Rate  FP Rate  Precision  Recall   F-Measure  MCC      ROC Area  PRC Area  Class
+                 0.554    0.005    0.890      0.554    0.683      0.685    0.840     0.654     Yes
+                 0.995    0.446    0.967      0.995    0.980      0.685    0.840     0.976     No
+Weighted Avg.    0.963    0.415    0.961      0.963    0.959      0.685    0.840     0.953     
+
+=== Confusion Matrix ===
+
+    a    b   <-- classified as
+  170  137 |    a = Yes
+   21 3956 |    b = No
+

@@ -7,7 +7,7 @@ Libraries used:
 
 - Python
 - Packages within python: flask(request, jsonify), flask_cors(CORS), numpy, pandas, sklearn.ensemble(RandomForestClassifier), sklearn.model_selection(train_test_split), sklearn.metrics(recall_score), imblearn.over_sampling(SMOTE),
-nltk, sklearn.neural_network(MLPClassifier), sys
+nltk, sklearn.neural_network(MLPClassifier), sklearn (svm), sys
 
 Dependencies:
 
