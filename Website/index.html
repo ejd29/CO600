@@ -1,10 +1,9 @@
 <!DOCTYPE HTML>
-
-<html>
+<html lang="en">
 <head>
 	<title>Terms and Conditions Analyser</title>
 	<meta charset="utf-8" />
-	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+	<meta name="viewport" content="width=device-width, initial-scale=1" />
 	<link rel="stylesheet" href="assets/css/main.css" />
 	<link rel="stylesheet" href="assets/css/modal.css" />
 	<link rel="stylesheet" href="assets/js/theme/jquery-ui.min.css">
@@ -34,7 +33,7 @@
 						<h1>Terms and Conditions Analyser</h1>
 					</header>
 					<p>This program analyses the Terms and Conditions you are reading and it will only show you the statements/sentences that you need to see.</p>
-					<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
+					<a id="ab0" href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
 				</div>
 			</div>
 		</div>
@@ -58,7 +57,7 @@
 				<div class="col-4 col-6-medium col-12-small">
 					<section class="box style1">
 						<span class="icon featured fa-search"></span>
-						<h3>Anaylse Text</h3>
+						<h3>Analyse Text</h3>
 						<p>Upon analysing each statement, the algorithms used will determine the 'risk' of that statement</p>
 					</section>
 				</div>
@@ -72,7 +71,7 @@
 			</div>
 			<footer>
 				<p>How cool is that!?</p>
-				<a href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
+				<a id="ab1" href="#analyse" class="button large scrolly">Analyse Ts and Cs</a>
 			</footer>
 		</div>
 	</article>
@@ -95,7 +94,7 @@
 			</header>
 			<div class="row">
 				<div class="col-12">
-					<form action="">
+					<form>
 						<div class="row">
 							<div class="col-12">
 								<textarea id="termsandconditions" placeholder="Terms and Conditions"></textarea>
@@ -103,7 +102,7 @@
 							<div class="col-12">
 								<ul class="actions">
 									<li><input id="analyseB" type="button" value="Analyse" /></li>
-									<li><input type="reset" value="Clear Text" class="alt" /></li>
+									<li><input id="clearBtn" type="reset" value="Clear Text" class="alt" /></li>
 								</ul>
 							</div>
 						</div>
@@ -127,34 +126,7 @@
 	<script src="assets/js/main.js"></script>
 	<script src="assets/js/modaljs.js"></script>
 	<script src="assets/js/jquery-ui.min.js"></script>
-
-	<script>
-	$(document).ready(function(){
-		$("#analyseB").click(function(){
-			$("#results").empty();
-			var tccontract = $("#termsandconditions").val();
-			var tcjson = {document : tccontract};
-			var tcData = JSON.stringify(tcjson);
-			$.ajax({
-				type: 'POST',
-				url: 'http://localhost:5000/ModelTest',
-				data: tcData,
-				cors: true,
-				dataType: 'json',
-				contentType: 'application/json',
-				secure: true,
-				headers: {
-					'Access-Control-Allow-Origin':'*',
-				},
-				success: function(data){
-					$.each(data.rs, function(i, result){
-						$("#results").append("<li>" + result + "</li>");
-					})
-				}
-			});
-		});
-	});
-	</script>
+	<script src="assets/js/connecttoai.js"></script>
 
 </body>
 </html>
