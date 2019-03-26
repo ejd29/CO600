@@ -9,6 +9,7 @@ from imblearn.over_sampling import SMOTE
 from sklearn.neural_network import MLPClassifier
 from sklearn.metrics import precision_score
 from sklearn.naive_bayes import GaussianNB
+from sklearn import tree
 from sklearn import svm
 
 def floor(number, bound=1):
@@ -80,8 +81,11 @@ for i in range(0,10):
     X_train, X_test, y_train, y_test, test_set_used = train_test_split_crossval(dataset_X, dataset_Y, test_set_used, examples_target/10)
     sm = SMOTE(random_state=12, ratio = 1.0)
     x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
-    clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(33,2), random_state=12)
+    #clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(33,2), random_state=12)
     #clf = RandomForestClassifier(n_estimators=25, random_state=12)
+    clf = GaussianNB()
+    #clf = tree.DecisionTreeClassifier()
+    #clf = svm.SVC(gamma='scale')
     clf.fit(x_train_res, y_train_res)
 
     recall_score_pos = recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes")
