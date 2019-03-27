@@ -12,12 +12,12 @@ class AnalyseButton(unittest.TestCase):
 
     def check_title(self): ## Testing Title header
         driver = self.driver
-        driver.get("C:/Users/USER/Desktop/CO600/PCopy/Website/index.html") ## subject to where you save the folder
+        driver.get("Website/index.html") ## subject to where you save the folder
         self.assertIn("Terms and Conditions Analyser", driver.title)
 
     def test_buttons(self): ## Testing all website buttons
         driver = self.driver
-        driver.get("C:/Users/USER/Desktop/CO600/PCopy/Website/index.html") ## subject to where you save the folder
+        driver.get("Website/index.html") ## subject to where you save the folder
 
         topButton = driver.find_element_by_id("ab0")
         topButton.click()
