@@ -25,7 +25,7 @@ def randomChoiceList(oldlist, count=1):
 
     return newlist
     
-
+##This cross validation method needs to be changed
 def train_test_split_crossval(dataset_X, dataset_Y, test_set_used, test_examples_count):
     all_indexes = range(0, len(dataset_X))
     test_used_removed = [x for x in all_indexes if x not in test_set_used]

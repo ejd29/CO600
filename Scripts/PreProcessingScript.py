@@ -12,8 +12,6 @@ from nltk.tokenize import sent_tokenize, word_tokenize
 snowball_stemmer = SnowballStemmer('english')
 stop_words = set(stopwords.words('english'))
 
-#contracts = ["asdaContract.txt", "lycaContract.txt", "eeContract.txt", "giffgaff.txt"]
-#contracts = ["asdaContract.txt"]
 contracts = ["12Contracts.txt"]
 punctuation = '!"#$%&\'()*+,-./:;<=>@[\\]^_`{|}~'
 
@@ -65,11 +63,6 @@ def processWords(input_data, headers=False):
         input_data = {key:val for key, val in input_data.items() if val > 5}
         for key in input_data:
             input_data_array.append(key)
-
-    #if headers==True:
-    #   input_data_array = []
-    #   for key in input_data:
-    #       input_data_array.append(key)
 
     unique_words = [] #This list stores all the unique words, excluding duplicates
     filter_stemming = [] #List for Stemmer (using the porter stemmer algorithm)
@@ -174,9 +167,5 @@ with open('Dataset12Contracts.csv', 'w', newline='') as myfile:
                 attributes_present.append(0)
         attributes_present[-1:] = ["No"]
         wr.writerow(attributes_present)
-    
-
-
-    #wr.writerow(attributes_dict.values())
 
     print("Dataset successfully created and saved.")

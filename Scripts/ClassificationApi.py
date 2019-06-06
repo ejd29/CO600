@@ -27,31 +27,15 @@ dataset_attributes_X = dataset.columns.values[0:dataset_columns-1].tolist()
 dataset_attribute_Y = dataset.columns.values[dataset_columns-1:dataset_columns].tolist()
 
 dataset_X = dataset[dataset_attributes_X].as_matrix()
-#dataset_Y = pd.get_dummies(dataset[dataset_attribute_Y]).as_matrix()
 dataset_Y = dataset[dataset_attribute_Y].as_matrix()
 
-X_train, X_test, y_train, y_test 
-= train_test_split(dataset_X, dataset_Y, test_size=0.2, random_state=12)
-
 sm = SMOTE(random_state=12, ratio = 1.0)
-x_train_res, y_train_res = sm.fit_sample(X_train, y_train)
+x_train_res, y_train_res = sm.fit_sample(dataset_X, dataset_Y)
 
 #clf = RandomForestClassifier(n_estimators=25, random_state=12)
 clf = MLPClassifier(solver='lbfgs', alpha=1e-5, hidden_layer_sizes=(33,2), random_state=12)
 #clf = svm.SVC(gamma='scale')
 clf.fit(x_train_res, y_train_res)
-
-print(clf.score(X_test, y_test))
-print(recall_score(y_test, clf.predict(X_test), average="binary", pos_label="Yes"))
-print(precision_score(y_test, clf.predict(X_test), average='binary', pos_label="Yes"))
-
-#testVar = "I shouldn't be this value"
-
-#def onLoad():
-#   global testVar
-#   testVar = "I should be this value"
-
-#onLoad()
 
 @app.route('/', methods=['GET'])
 def home():
